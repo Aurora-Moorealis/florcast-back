@@ -13,6 +13,30 @@ API backend desarrollada con FastAPI para el análisis y gestión de datos de pl
 - **CORS habilitado**: Configuración lista para desarrollo frontend
 - **Ejemplo CRUD completo**: Operaciones básicas implementadas para plantas
 
+## 📚 Librerías Utilizadas
+
+### Framework Web
+- **FastAPI** (0.115.5) - Framework web moderno para construir APIs con Python
+- **Uvicorn** (0.32.1) - Servidor ASGI de alto rendimiento
+- **Pydantic** (2.10.3) - Validación de datos y configuración
+- **Pydantic Settings** (2.6.1) - Gestión de configuración basada en variables de entorno
+- **Python-dotenv** (1.0.1) - Carga de variables de entorno desde archivos .env
+
+### Análisis de Datos
+- **pandas** (2.2.3) - Manipulación y análisis de datos estructurados
+- **numpy** (2.2.1) - Computación numérica y operaciones matemáticas avanzadas
+
+### Geolocalización y Geografía
+- **geopy** (2.4.1) - Cálculos de distancia geográfica y servicios de geocodificación
+- **shapely** (2.0.6) - Manipulación y análisis de geometrías geoespaciales
+
+Estas librerías permiten:
+- ✅ Análisis estadístico avanzado de características de plantas
+- ✅ Cálculo preciso de distancias entre ubicaciones geográficas
+- ✅ Procesamiento y manipulación de datos geoespaciales
+- ✅ Agregaciones, transformaciones y visualización de datos
+- ✅ Validación robusta de coordenadas y datos geográficos
+
 ## 📁 Estructura del Proyecto
 
 ```
@@ -188,21 +212,6 @@ PORT=8000
 # CORS Configuration
 ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8000
 ```
-
-## 📊 Librerías de Análisis y Datos
-
-La API incluye las siguientes librerías para análisis de datos:
-
-- **pandas**: Manipulación y análisis de datos estructurados
-- **numpy**: Computación numérica y operaciones matemáticas
-- **geopy**: Cálculos de distancia geográfica y geocodificación
-- **shapely**: Manipulación y análisis de geometrías geoespaciales
-
-Estas librerías permiten:
-- Análisis estadístico de características de plantas
-- Cálculo de distancias entre ubicaciones
-- Procesamiento de datos geoespaciales
-- Agregaciones y transformaciones de datos
 
 ## 🏗️ Extender la API
 
