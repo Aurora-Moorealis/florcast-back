@@ -7,7 +7,7 @@ app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
     debug=settings.DEBUG,
-    description="API para gestión y análisis de datos de plantas y flora"
+    description="API of floration events"
 )
 
 # CORS Configuration
@@ -22,19 +22,19 @@ app.add_middleware(
 # Include routers
 app.include_router(plants.router, prefix="/api/v1", tags=["plants"])
 
-
-@app.get("/")
+@app.get("/api")
 async def root():
     """Root endpoint"""
+    
     return {
-        "message": "Bienvenido a florcast-back API - API de Plantas y Flora",
+        "message": "Welcome to florcast-back API - API of flowers",
         "version": settings.APP_VERSION,
         "docs": "/docs",
-        "description": "API para gestión, análisis de datos y búsqueda geográfica de plantas"
+        "description": app.description
     }
 
 
-@app.get("/health")
+@app.get("/api/health")
 async def health_check():
     """Health check endpoint"""
     return {"status": "healthy"}

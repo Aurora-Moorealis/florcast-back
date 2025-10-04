@@ -24,42 +24,33 @@ class PlantService:
                 common_name="Sweet Briar Rose",
                 family="Rosaceae",
                 description="A species of wild rose with fragrant foliage and pink flowers",
-                habitat="Hedgerows, scrubland, and forest margins",
-                climate_zones=["Temperate", "Mediterranean"],
                 latitude=51.5074,
                 longitude=-0.1278,
                 location_name="London, UK",
                 height_cm=200.0,
                 bloom_season="Spring-Summer",
-                is_endangered=False
             ),
             PlantCreate(
                 scientific_name="Sequoiadendron giganteum",
                 common_name="Giant Sequoia",
                 family="Cupressaceae",
                 description="One of the largest and longest-living trees on Earth",
-                habitat="Mountain forests",
-                climate_zones=["Mediterranean", "Temperate"],
                 latitude=36.4864,
                 longitude=-118.5658,
                 location_name="Sequoia National Park, USA",
                 height_cm=8000.0,
                 bloom_season="Winter-Spring",
-                is_endangered=True
             ),
             PlantCreate(
                 scientific_name="Lavandula angustifolia",
                 common_name="English Lavender",
                 family="Lamiaceae",
                 description="Aromatic flowering plant widely cultivated for its fragrant flowers",
-                habitat="Dry, sunny slopes and Mediterranean regions",
-                climate_zones=["Mediterranean", "Subtropical"],
                 latitude=43.6108,
                 longitude=3.8767,
                 location_name="Montpellier, France",
                 height_cm=60.0,
                 bloom_season="Summer",
-                is_endangered=False
             ),
         ]
         for plant_data in sample_plants:
