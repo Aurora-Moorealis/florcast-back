@@ -1,15 +1,17 @@
 # florcast-back
 
-API backend desarrollada con FastAPI para el proyecto florcast.
+API backend desarrollada con FastAPI para el análisis y gestión de datos de plantas y flora.
 
 ## 🚀 Características
 
 - **FastAPI**: Framework moderno y rápido para construir APIs
 - **Estructura modular**: Organización clara con routers, models y services
 - **Validación automática**: Validación de datos con Pydantic
+- **Análisis de datos**: Integración con pandas y numpy para análisis estadístico
+- **Funcionalidad geográfica**: Búsqueda de plantas por ubicación con geopy y shapely
 - **Documentación interactiva**: Swagger UI y ReDoc incluidos
 - **CORS habilitado**: Configuración lista para desarrollo frontend
-- **Ejemplo CRUD completo**: Operaciones básicas implementadas
+- **Ejemplo CRUD completo**: Operaciones básicas implementadas para plantas
 
 ## 📁 Estructura del Proyecto
 
@@ -20,13 +22,13 @@ florcast-back/
 │   ├── config.py              # Configuración de la aplicación
 │   ├── models/                # Modelos Pydantic
 │   │   ├── __init__.py
-│   │   └── item.py
+│   │   └── plant.py           # Modelo de plantas
 │   ├── routers/               # Endpoints de la API
 │   │   ├── __init__.py
-│   │   └── items.py
+│   │   └── plants.py          # CRUD y búsquedas de plantas
 │   └── services/              # Lógica de negocio
 │       ├── __init__.py
-│       └── item_service.py
+│       └── plant_service.py   # Servicio de plantas con análisis
 ├── main.py                    # Punto de entrada de la aplicación
 ├── requirements.txt           # Dependencias del proyecto
 ├── .env.example              # Variables de entorno de ejemplo
@@ -97,31 +99,76 @@ El servidor estará disponible en: `http://localhost:8000`
 - `GET /` - Página de bienvenida
 - `GET /health` - Estado de salud de la API
 
-### Items CRUD
+### Plantas CRUD
 
-- `GET /api/v1/items` - Obtener todos los items
-- `GET /api/v1/items/{item_id}` - Obtener un item específico
-- `POST /api/v1/items` - Crear un nuevo item
-- `PUT /api/v1/items/{item_id}` - Actualizar un item
-- `DELETE /api/v1/items/{item_id}` - Eliminar un item
+- `GET /api/v1/plants` - Obtener todas las plantas
+- `GET /api/v1/plants/{plant_id}` - Obtener una planta específica
+- `POST /api/v1/plants` - Crear una nueva planta
+- `PUT /api/v1/plants/{plant_id}` - Actualizar una planta
+- `DELETE /api/v1/plants/{plant_id}` - Eliminar una planta
+
+### Análisis y Estadísticas
+
+- `GET /api/v1/plants/statistics/summary` - Obtener estadísticas de las plantas (análisis con pandas/numpy)
+
+### Búsqueda Geográfica
+
+- `GET /api/v1/plants/search/nearby?latitude={lat}&longitude={lon}&radius_km={radius}` - Buscar plantas cerca de una ubicación
+
+## 🌱 Modelo de Datos de Plantas
+
+```json
+{
+  "scientific_name": "Rosa rubiginosa",
+  "common_name": "Sweet Briar Rose",
+  "family": "Rosaceae",
+  "description": "Una especie de rosa silvestre con follaje fragante",
+  "habitat": "Setos, matorrales y márgenes de bosques",
+  "climate_zones": ["Templado", "Mediterráneo"],
+  "latitude": 51.5074,
+  "longitude": -0.1278,
+  "location_name": "Londres, UK",
+  "height_cm": 200.0,
+  "bloom_season": "Primavera-Verano",
+  "is_endangered": false
+}
+```
 
 ### Ejemplo de uso
 
-**Crear un item:**
+**Crear una planta:**
 ```bash
-curl -X POST "http://localhost:8000/api/v1/items" \
+curl -X POST "http://localhost:8000/api/v1/plants" \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "Nuevo Item",
-    "description": "Descripción del item",
-    "price": 49.99,
-    "is_available": true
+    "scientific_name": "Quercus robur",
+    "common_name": "Roble común",
+    "family": "Fagaceae",
+    "description": "Árbol caducifolio de gran tamaño",
+    "habitat": "Bosques templados",
+    "climate_zones": ["Templado"],
+    "latitude": 40.4168,
+    "longitude": -3.7038,
+    "location_name": "Madrid, España",
+    "height_cm": 4000.0,
+    "bloom_season": "Primavera",
+    "is_endangered": false
   }'
 ```
 
-**Obtener todos los items:**
+**Obtener todas las plantas:**
 ```bash
-curl "http://localhost:8000/api/v1/items"
+curl "http://localhost:8000/api/v1/plants"
+```
+
+**Obtener estadísticas:**
+```bash
+curl "http://localhost:8000/api/v1/plants/statistics/summary"
+```
+
+**Buscar plantas cercanas:**
+```bash
+curl "http://localhost:8000/api/v1/plants/search/nearby?latitude=40.4168&longitude=-3.7038&radius_km=500"
 ```
 
 ## 🔧 Configuración
@@ -141,6 +188,21 @@ PORT=8000
 # CORS Configuration
 ALLOWED_ORIGINS=http://localhost:3000,http://localhost:8000
 ```
+
+## 📊 Librerías de Análisis y Datos
+
+La API incluye las siguientes librerías para análisis de datos:
+
+- **pandas**: Manipulación y análisis de datos estructurados
+- **numpy**: Computación numérica y operaciones matemáticas
+- **geopy**: Cálculos de distancia geográfica y geocodificación
+- **shapely**: Manipulación y análisis de geometrías geoespaciales
+
+Estas librerías permiten:
+- Análisis estadístico de características de plantas
+- Cálculo de distancias entre ubicaciones
+- Procesamiento de datos geoespaciales
+- Agregaciones y transformaciones de datos
 
 ## 🏗️ Extender la API
 

@@ -1,12 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
-from app.routers import items
+from app.routers import plants
 
 app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
-    debug=settings.DEBUG
+    debug=settings.DEBUG,
+    description="API para gestión y análisis de datos de plantas y flora"
 )
 
 # CORS Configuration
@@ -19,16 +20,17 @@ app.add_middleware(
 )
 
 # Include routers
-app.include_router(items.router, prefix="/api/v1", tags=["items"])
+app.include_router(plants.router, prefix="/api/v1", tags=["plants"])
 
 
 @app.get("/")
 async def root():
     """Root endpoint"""
     return {
-        "message": "Welcome to florcast-back API",
+        "message": "Bienvenido a florcast-back API - API de Plantas y Flora",
         "version": settings.APP_VERSION,
-        "docs": "/docs"
+        "docs": "/docs",
+        "description": "API para gestión, análisis de datos y búsqueda geográfica de plantas"
     }
 
 
