@@ -14,6 +14,7 @@ class Plant:
     
     # Plant characteristics
     height: Optional[float] = Field(None, gt=0, description="Average height in centimeters")
+    growth_rate: Optional[float] = Field(None, gt=0, description="Growth Rate in centimeters")
     bloom_season: list[Station] = Field([], max_length=100, description="Blooming season")
 
 class PlantBase(Plant, Location, BaseModel):
@@ -21,7 +22,7 @@ class PlantBase(Plant, Location, BaseModel):
     ...
 
 
-class PlantCreate(PlantBase, BaseModel):
+class PlantCreate(Plant, BaseModel):
     """Model for creating a plant"""
     pass
 
@@ -34,7 +35,8 @@ class PlantUpdate(BaseModel):
     description: Optional[str] = Field(None, max_length=1000)
     latitude: Optional[float] = Field(None, ge=-90, le=90)
     longitude: Optional[float] = Field(None, ge=-180, le=180)
-    height_cm: Optional[float] = Field(None, gt=0)
+    height: Optional[float] = Field(None, gt=0)
+    growth_rate: Optional[float] = Field(None, gt=0)
     bloom_season: Optional[str] = Field(None, max_length=100)
 
 class PlantRecord(PlantBase):

@@ -1,6 +1,6 @@
 from enum import Enum
 
-class APIs(Enum, str):
-    GLOBE = 'https://api.globe.gov/search/v1/{}?group=public-api'
-    PERENUAL = 'https://perenual.com/api/v2/{}?key={}'
+class APIs(str, Enum):
+    GLOBE = 'https://api.globe.gov/search/v1/'
+    PERENUAL = 'https://perenual.com/api/v2/'
     
