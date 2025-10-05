@@ -5,13 +5,10 @@ import numpy as np
 from geopy.distance import geodesic
 from app.models import (
     PerenualPlantDetail,
-    Plant,
-    PlantCreate,
-    PlantUpdate
+    Plant
 )
 import json, requests, datetime
 from . import (
-    PlantBase,
     PerenualSpeciesRequest,
     APIs,
     API,
@@ -29,11 +26,11 @@ class PlantService:
         pass
     
     @staticmethod
-    def get_plants() -> list[PlantBase]:
+    def get_plants() -> list[Plant]:
         
         with open('../../data/examples/plants_data.json') as file:
             
-            data: list[PlantBase] = json.loads(file.read())
+            data: list[Plant] = json.loads(file.read())
             
             return data
     
@@ -92,7 +89,7 @@ class PlantService:
         return None
     
     @staticmethod
-    def get_prediction(flower: PlantBase) -> Optional[dict[str, Any]|float]:
+    def get_prediction(flower: Plant) -> Optional[dict[str, Any]|float]:
         """Get plant prediction from Perenual API and GLOBE based on flower data"""
         
         specie = PlantService.search_plant_by_scientific_name(flower.scientific_name[0])
@@ -142,10 +139,10 @@ class PlantService:
                 params={
                     **default_params,
                     'datefield': 'measuredDate',
-                    'minlat': flower.latitude-10,
-                    'maxlat': flower.latitude+10,
-                    'minlon': flower.longitude-10,
-                    'maxlon': flower.longitude+10
+                    'minlat': flower.location.coords.latitude-10,
+                    'maxlat': flower.location.coords.latitude+10,
+                    'minlon': flower.location.coords.longitude-10,
+                    'maxlon': flower.location.coords.longitude+10
                 }
             ).text
         )

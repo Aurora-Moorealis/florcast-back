@@ -1,9 +1,9 @@
 from typing import Optional
-from pydantic import Field
+from pydantic import Field, BaseModel
 from dataclasses import dataclass
 
-@dataclass
-class Point:
+
+class Point(BaseModel):
     
     # Geographic data
     latitude: float = Field(..., ge=-90, le=90, description="Point Latitude")

@@ -1,4 +1,4 @@
-from app.models import PerenualPlantDetail, GhrowthRate, PlantBase
+from app.models import PerenualPlantDetail, GhrowthRate, Plant
 from typing import Any
 
 growth_to_number: dict[GhrowthRate, int] = {
@@ -7,7 +7,7 @@ growth_to_number: dict[GhrowthRate, int] = {
     "HIGH": 4,
 }
 
-def calculate_growth_percentage(plant: PlantBase, plant_detail: PerenualPlantDetail, globe_data: dict[str, Any]) -> float:
+def calculate_growth_percentage(plant: Plant, plant_detail: PerenualPlantDetail, globe_data: dict[str, Any]) -> float:
     """
     Calculate the growth percentage of a plant based on its details and weather data.
     
@@ -33,7 +33,12 @@ def calculate_growth_percentage(plant: PlantBase, plant_detail: PerenualPlantDet
     temperature = globe_data.get('surface_temperature')
     vegetation_cover = globe_data.get('vegatation_cover')
 
-    g = (weights['precipitation']*precipitation + weights['temperature']*temperature + weights['vegetation_cover']*vegetation_cover)/sum(weights.values()) if precipitation and temperature and vegetation_cover else 0
+    g = (
+        weights['precipitation']*precipitation 
+        + weights['temperature']*temperature
+        + weights['vegetation_cover']*vegetation_cover
+        )/sum(weights.values()) if precipitation and temperature and vegetation_cover else 0
+    
     k = 0.01
     e = 5
 
