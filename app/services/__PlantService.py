@@ -28,7 +28,7 @@ class PlantService:
     @staticmethod
     def get_plants() -> list[Plant]:
         
-        with open('../../data/examples/plants_data.json') as file:
+        with open('data/examples/plants_data.json') as file:
             
             data: list[Plant] = json.loads(file.read())
             
