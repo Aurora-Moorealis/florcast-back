@@ -22,7 +22,7 @@ app.add_middleware(
 # Include routers
 app.include_router(plants.router, prefix="/api/v1", tags=["plants"])
 
-@app.get("/api")
+@app.get("/")
 async def root():
     """Root endpoint"""
     
@@ -34,7 +34,7 @@ async def root():
     }
 
 
-@app.get("/api/health")
+@app.get("/health")
 async def health_check():
     """Health check endpoint"""
     return {"status": "healthy"}
@@ -43,7 +43,7 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(
-        "main:app",
+        "__main__:app",
         host=settings.HOST,
         port=settings.PORT,
         reload=settings.DEBUG
