@@ -35,6 +35,15 @@ class PlantService:
             return data
     
     @staticmethod
+    def get_predictions():
+        
+        with open('data/examples/predictions_data.json') as file:
+            
+            data: Plant = Plant(**json.loads(file.read()))
+            
+            return data
+    
+    @staticmethod
     def get_plants_prediction() -> PerenualSpeciesRequest:
         
         raw_request = API.get_json(
