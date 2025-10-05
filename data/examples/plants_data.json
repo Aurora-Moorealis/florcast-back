@@ -5,11 +5,13 @@
         "common_name": "French Rose",
         "family": "Rosaceae",
         "description": "A species of rose native to southern and central Europe, known for its deep pink flowers.",
-        "height": 120.0,
-        "growth_rate": 0,
+        "max_height": 120.0,
+        "actual_height": 37.0,
+        "growth_rate": 3,
         "bloom_season": ["Spring", "Summer"],
         "latitude": 48.8566,
         "longitude": 2.3522,
+        "country_code": "FR",
         "location_name": "Jardin des Plantes, Paris"
     },
     {
@@ -18,11 +20,13 @@
         "common_name": "Sunflower",
         "family": "Asteraceae",
         "description": "Tall annual plant with large yellow flowers that follow the sun’s movement.",
-        "height": 300.0,
-        "growth_rate": 0,
+        "max_height": 300.0,
+        "actual_height": 0.0,
+        "growth_rate": 25,
         "bloom_season": "Summer",
         "latitude": 37.7749,
         "longitude": -122.4194,
+        "country_code": "US",
         "location_name": "Golden Gate Park, San Francisco"
     },
     {
@@ -31,11 +35,13 @@
         "common_name": "China Rose",
         "family": "Malvaceae",
         "description": "Tropical plant with large, showy red flowers often used in ornamental gardens.",
-        "height": 200.0,
-        "growth_rate": 0,
+        "max_height": 200.0,
+        "actual_height": 80.0,
+        "growth_rate": 11.75,
         "bloom_season": ["Spring", "Winter"],
         "latitude": 18.4861,
         "longitude": -69.9312,
+        "country_code": "DO",
         "location_name": "Botanical Garden, Santo Domingo"
     },
     {
@@ -44,11 +50,13 @@
         "common_name": "Garden Tulip",
         "family": "Liliaceae",
         "description": "A perennial bulbous plant with brightly colored cup-shaped flowers.",
-        "height": 45.0,
-        "growth_rate": 0,
+        "max_height": 45.0,
+        "actual_height": 12.5,
+        "growth_rate": 4,
         "bloom_season": ["Spring"],
         "latitude": 52.3702,
         "longitude": 4.8952,
+        "country_code": "NL",
         "location_name": "Keukenhof Gardens, Netherlands"
     },
     {
@@ -57,11 +65,13 @@
         "common_name": "English Lavender",
         "family": "Lamiaceae",
         "description": "Small aromatic shrub used for essential oils and decoration.",
-        "height": 60.0,
-        "growth_rate": 0,
+        "max_height": 60.0,
+        "actual_height": 20.0,
+        "growth_rate": 3.5,
         "bloom_season": ["Spring", "Summer"],
         "latitude": 43.7034,
         "longitude": 7.2663,
+        "country_code": "FR",
         "location_name": "Provence, France"
     }
 ]

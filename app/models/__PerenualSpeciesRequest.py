@@ -16,8 +16,8 @@ class DefaultImage(BaseModel):
 
 class Datum(BaseModel):
     id: Optional[int] = None
-    common_name: Optional[str] = None
-    scientific_name: Optional[List[str]] = None
+    common_name: str = ''
+    scientific_name: List[str] = []
     other_name: Optional[List[str]] = None
     family: Optional[str] = None
     hybrid: Optional[str] = None
@@ -31,7 +31,7 @@ class Datum(BaseModel):
 
 
 class PerenualSpeciesRequest(BaseModel):
-    data: Optional[List[Datum]] = None
+    data: List[Datum] = []
     to: Optional[int] = None
     per_page: Optional[int] = None
     current_page: Optional[int] = None
