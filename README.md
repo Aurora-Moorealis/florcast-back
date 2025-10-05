@@ -106,7 +106,7 @@ python main.py
 
 O usando uvicorn directamente:
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+guvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 El servidor estará disponible en: `http://localhost:8000`
