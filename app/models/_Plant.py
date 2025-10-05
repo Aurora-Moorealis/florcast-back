@@ -19,6 +19,7 @@ class Plant:
     temperature_to_grow: Optional[float] = Field(None, description="Optimal temperature to grow in Celsius")
     growth_rate: Optional[float] = Field(None, gt=0, description="Growth Rate in centimeters")
     bloom_season: list[Station] = Field([], max_length=100, description="Blooming season")
+    planting_date: Optional[datetime] = Field(None, description="Date when the plant was planted")
 
 class PlantBase(Plant, Location, BaseModel):
     """Base plant model"""
