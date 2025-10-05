@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import settings
 from app.routers import plants
+import app
 
 app = FastAPI(
     title=settings.APP_NAME,
@@ -30,7 +31,7 @@ async def root():
         "message": "Welcome to florcast-back API - API of flowers",
         "version": settings.APP_VERSION,
         "docs": "/docs",
-        "description": app.description
+        "description": app.description # type: ignore
     }
 
 
