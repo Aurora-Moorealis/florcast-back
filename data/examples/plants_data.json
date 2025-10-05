@@ -9,13 +9,17 @@
         "temperature_to_grow": 50.9,
         "growth_rate": 3.61,
         "bloom_season": "Spring",
-        "country_code": "SPM",
-        "created_at": "2025-09-06",
-        "updated_at": "2025-09-21",
-        "planting_date": "2025-09-15",
-        "latitude": 22.765392,
-        "longitude": 112.964446,
-        "location_name": "4 Clarendon Street"
+        "created_at": "2025-09-06 00:00:00",
+        "updated_at": "2025-09-21 00:00:00",
+        "planting_date": "2025-09-15 00:00:00",
+        "location": {
+            "country_code": "SPM",
+            "location_name": "4 Clarendon Street",
+            "coords": {
+                "latitude": 22.765392,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 2,
@@ -27,13 +31,17 @@
         "temperature_to_grow": 53.4,
         "growth_rate": 2.15,
         "bloom_season": "Spring",
-        "country_code": "TUN",
-        "created_at": "2025-10-04",
-        "updated_at": "2025-09-09",
-        "planting_date": "2025-09-14",
-        "latitude": 31.2031123,
-        "longitude": 73.8904135,
-        "location_name": "13671 Marquette Park"
+        "created_at": "2025-10-04 00:00:00",
+        "updated_at": "2025-09-09 00:00:00",
+        "planting_date": "2025-09-14 00:00:00",
+        "location": {
+            "country_code": "TUN",
+            "location_name": "13671 Marquette Park",
+            "coords": {
+                "latitude": 31.2031123,
+                "longitude": 73.8904135
+            }
+        }
     },
     {
         "id": 3,
@@ -45,13 +53,17 @@
         "temperature_to_grow": 234.6,
         "growth_rate": 3.58,
         "bloom_season": "Spring",
-        "country_code": "SSD",
-        "created_at": "2025-09-18",
-        "updated_at": "2025-09-26",
-        "planting_date": "2025-09-27",
-        "latitude": 13.3743393,
-        "longitude": 108.3989809,
-        "location_name": "704 Cottonwood Way"
+        "created_at": "2025-09-18 00:00:00",
+        "updated_at": "2025-09-26 00:00:00",
+        "planting_date": "2025-09-27 00:00:00",
+        "location": {
+            "country_code": "SSD",
+            "location_name": "704 Cottonwood Way",
+            "coords": {
+                "latitude": 13.3743393,
+                "longitude": 89.3989809
+            }
+        }
     },
     {
         "id": 4,
@@ -63,13 +75,17 @@
         "temperature_to_grow": 78.2,
         "growth_rate": 0.67,
         "bloom_season": "Spring",
-        "country_code": "VEN",
-        "created_at": "2025-09-26",
-        "updated_at": "2025-09-17",
-        "planting_date": "2025-09-02",
-        "latitude": 16.8660694,
-        "longitude": 96.195132,
-        "location_name": "2 Waywood Junction"
+        "created_at": "2025-09-26 00:00:00",
+        "updated_at": "2025-09-17 00:00:00",
+        "planting_date": "2025-09-02 00:00:00",
+        "location": {
+            "country_code": "VEN",
+            "location_name": "2 Waywood Junction",
+            "coords": {
+                "latitude": 16.8660694,
+                "longitude": 86.195132
+            }
+        }
     },
     {
         "id": 5,
@@ -81,13 +97,17 @@
         "temperature_to_grow": 237.4,
         "growth_rate": 0.81,
         "bloom_season": "Summer",
-        "country_code": "PYF",
-        "created_at": "2025-09-28",
-        "updated_at": "2025-10-03",
-        "planting_date": "2025-10-04",
-        "latitude": 28.854554,
-        "longitude": 120.740782,
-        "location_name": "6351 Cordelia Circle"
+        "created_at": "2025-09-28 00:00:00",
+        "updated_at": "2025-10-03 00:00:00",
+        "planting_date": "2025-10-04 00:00:00",
+        "location": {
+            "country_code": "PYF",
+            "location_name": "6351 Cordelia Circle",
+            "coords": {
+                "latitude": 28.854554,
+                "longitude": 89.740782
+            }
+        }
     },
     {
         "id": 6,
@@ -99,13 +119,17 @@
         "temperature_to_grow": 184.7,
         "growth_rate": 4.01,
         "bloom_season": "Summer",
-        "country_code": "TJK",
-        "created_at": "2025-09-30",
-        "updated_at": "2025-09-13",
-        "planting_date": "2025-09-01",
-        "latitude": 12.333333,
-        "longitude": 121.1500015,
-        "location_name": "5226 Stephen Court"
+        "created_at": "2025-09-30 00:00:00",
+        "updated_at": "2025-09-13 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "TJK",
+            "location_name": "5226 Stephen Court",
+            "coords": {
+                "latitude": 12.333333,
+                "longitude": 89.1500015
+            }
+        }
     },
     {
         "id": 7,
@@ -117,13 +141,17 @@
         "temperature_to_grow": 177.1,
         "growth_rate": 3.32,
         "bloom_season": "Winter",
-        "country_code": "JEY",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-05",
-        "planting_date": "2025-09-10",
-        "latitude": 31.266133,
-        "longitude": 121.611248,
-        "location_name": "9 Becker Parkway"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-05 00:00:00",
+        "planting_date": "2025-09-10 00:00:00",
+        "location": {
+            "country_code": "JEY",
+            "location_name": "9 Becker Parkway",
+            "coords": {
+                "latitude": 31.266133,
+                "longitude": 89.611248
+            }
+        }
     },
     {
         "id": 8,
@@ -135,17 +163,21 @@
         "temperature_to_grow": 5.8,
         "growth_rate": 2.39,
         "bloom_season": "Spring",
-        "country_code": "NIC",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-03",
-        "planting_date": "2025-09-09",
-        "latitude": 32.943109,
-        "longitude": 35.343616,
-        "location_name": "4 Charing Cross Point"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-03 00:00:00",
+        "planting_date": "2025-09-09 00:00:00",
+        "location": {
+            "country_code": "NIC",
+            "location_name": "4 Charing Cross Point",
+            "coords": {
+                "latitude": 32.943109,
+                "longitude": 35.343616
+            }
+        }
     },
     {
         "id": 9,
-        "scientific_name": "×Dupoa J. Cay. & S.J. Darbyshire",
+        "scientific_name": "\u00c3\u2014Dupoa J. Cay. & S.J. Darbyshire",
         "common_name": "Dupoa",
         "description": "Essential kit for taking care of your pets' health emergencies.",
         "max_height": 141.16,
@@ -153,13 +185,17 @@
         "temperature_to_grow": 234.9,
         "growth_rate": 3.51,
         "bloom_season": "Summer",
-        "country_code": "CHN",
-        "created_at": "2025-09-04",
-        "updated_at": "2025-09-06",
-        "planting_date": "2025-10-03",
-        "latitude": 36.681449,
-        "longitude": 69.1149051,
-        "location_name": "4806 Troy Court"
+        "created_at": "2025-09-04 00:00:00",
+        "updated_at": "2025-09-06 00:00:00",
+        "planting_date": "2025-10-03 00:00:00",
+        "location": {
+            "country_code": "CHN",
+            "location_name": "4806 Troy Court",
+            "coords": {
+                "latitude": 36.681449,
+                "longitude": 69.1149051
+            }
+        }
     },
     {
         "id": 10,
@@ -171,17 +207,21 @@
         "temperature_to_grow": 154.7,
         "growth_rate": 4.78,
         "bloom_season": "Winter",
-        "country_code": "BOL",
-        "created_at": "2025-09-21",
-        "updated_at": "2025-09-26",
-        "planting_date": "2025-09-28",
-        "latitude": 24.310713,
-        "longitude": 110.64085,
-        "location_name": "4 Burrows Terrace"
+        "created_at": "2025-09-21 00:00:00",
+        "updated_at": "2025-09-26 00:00:00",
+        "planting_date": "2025-09-28 00:00:00",
+        "location": {
+            "country_code": "BOL",
+            "location_name": "4 Burrows Terrace",
+            "coords": {
+                "latitude": 24.310713,
+                "longitude": 87.64085
+            }
+        }
     },
     {
         "id": 11,
-        "scientific_name": "Gyalecta flotowii Körb.",
+        "scientific_name": "Gyalecta flotowii K\u00c3\u00b6rb.",
         "common_name": "Flotow's Dimple Lichen",
         "description": "Comfortable over-ear headphones with deep bass.",
         "max_height": 716.93,
@@ -189,13 +229,17 @@
         "temperature_to_grow": 231.4,
         "growth_rate": 3.21,
         "bloom_season": "Winter",
-        "country_code": "NCL",
-        "created_at": "2025-09-15",
-        "updated_at": "2025-10-04",
-        "planting_date": "2025-09-19",
-        "latitude": 16.1393157,
-        "longitude": 103.604946,
-        "location_name": "12 Killdeer Street"
+        "created_at": "2025-09-15 00:00:00",
+        "updated_at": "2025-10-04 00:00:00",
+        "planting_date": "2025-09-19 00:00:00",
+        "location": {
+            "country_code": "NCL",
+            "location_name": "12 Killdeer Street",
+            "coords": {
+                "latitude": 16.1393157,
+                "longitude": 13.604946
+            }
+        }
     },
     {
         "id": 12,
@@ -207,13 +251,17 @@
         "temperature_to_grow": 99.1,
         "growth_rate": 0.82,
         "bloom_season": "Winter",
-        "country_code": "EST",
-        "created_at": "2025-09-06",
-        "updated_at": "2025-09-13",
-        "planting_date": "2025-09-11",
-        "latitude": 30.456224,
-        "longitude": 106.633088,
-        "location_name": "31 Packers Drive"
+        "created_at": "2025-09-06 00:00:00",
+        "updated_at": "2025-09-13 00:00:00",
+        "planting_date": "2025-09-11 00:00:00",
+        "location": {
+            "country_code": "EST",
+            "location_name": "31 Packers Drive",
+            "coords": {
+                "latitude": 30.456224,
+                "longitude": 16.633088
+            }
+        }
     },
     {
         "id": 13,
@@ -225,13 +273,17 @@
         "temperature_to_grow": 170.3,
         "growth_rate": 1.57,
         "bloom_season": "Winter",
-        "country_code": "MDG",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-05",
-        "planting_date": "2025-10-03",
-        "latitude": 14.6921469,
-        "longitude": 120.9617614,
-        "location_name": "41 Straubel Street"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-05 00:00:00",
+        "planting_date": "2025-10-03 00:00:00",
+        "location": {
+            "country_code": "MDG",
+            "location_name": "41 Straubel Street",
+            "coords": {
+                "latitude": 14.6921469,
+                "longitude": 12.9617614
+            }
+        }
     },
     {
         "id": 14,
@@ -243,31 +295,39 @@
         "temperature_to_grow": 45.4,
         "growth_rate": 3.84,
         "bloom_season": "Summer",
-        "country_code": "TUN",
-        "created_at": "2025-09-16",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-16",
-        "latitude": 51.068668,
-        "longitude": 22.9614463,
-        "location_name": "08581 Lyons Crossing"
+        "created_at": "2025-09-16 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-16 00:00:00",
+        "location": {
+            "country_code": "TUN",
+            "location_name": "08581 Lyons Crossing",
+            "coords": {
+                "latitude": 51.068668,
+                "longitude": 22.9614463
+            }
+        }
     },
     {
         "id": 15,
         "scientific_name": "Nototrichium divaricatum D.H. Lorence",
         "common_name": "Na Pali Rockwort",
-        "description": "Frozen shrimp sautéed in garlic butter, ready to thaw and serve over pasta or rice.",
+        "description": "Frozen shrimp saut\u00c3\u00a9ed in garlic butter, ready to thaw and serve over pasta or rice.",
         "max_height": 952.76,
         "initial_height": 93.1,
         "temperature_to_grow": 125.1,
         "growth_rate": 1.86,
         "bloom_season": "Spring",
-        "country_code": "MMR",
-        "created_at": "2025-09-02",
-        "updated_at": "2025-09-12",
-        "planting_date": "2025-09-23",
-        "latitude": 9.5138582,
-        "longitude": 123.1654018,
-        "location_name": "988 Golden Leaf Road"
+        "created_at": "2025-09-02 00:00:00",
+        "updated_at": "2025-09-12 00:00:00",
+        "planting_date": "2025-09-23 00:00:00",
+        "location": {
+            "country_code": "MMR",
+            "location_name": "988 Golden Leaf Road",
+            "coords": {
+                "latitude": 9.5138582,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 16,
@@ -279,13 +339,17 @@
         "temperature_to_grow": 8.0,
         "growth_rate": 1.1,
         "bloom_season": "Summer",
-        "country_code": "HMD",
-        "created_at": "2025-09-15",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-12",
-        "latitude": 53.4053396,
-        "longitude": 22.8055555,
-        "location_name": "77 Graceland Court"
+        "created_at": "2025-09-15 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-12 00:00:00",
+        "location": {
+            "country_code": "HMD",
+            "location_name": "77 Graceland Court",
+            "coords": {
+                "latitude": 53.4053396,
+                "longitude": 22.8055555
+            }
+        }
     },
     {
         "id": 17,
@@ -297,13 +361,17 @@
         "temperature_to_grow": 14.0,
         "growth_rate": 3.27,
         "bloom_season": "Spring",
-        "country_code": "KHM",
-        "created_at": "2025-09-19",
-        "updated_at": "2025-10-03",
-        "planting_date": "2025-09-12",
-        "latitude": 44.346784,
-        "longitude": 5.8855505,
-        "location_name": "28548 Everett Drive"
+        "created_at": "2025-09-19 00:00:00",
+        "updated_at": "2025-10-03 00:00:00",
+        "planting_date": "2025-09-12 00:00:00",
+        "location": {
+            "country_code": "KHM",
+            "location_name": "28548 Everett Drive",
+            "coords": {
+                "latitude": 44.346784,
+                "longitude": 5.8855505
+            }
+        }
     },
     {
         "id": 18,
@@ -315,13 +383,17 @@
         "temperature_to_grow": 150.6,
         "growth_rate": 4.68,
         "bloom_season": "Summer",
-        "country_code": "DJI",
-        "created_at": "2025-09-05",
-        "updated_at": "2025-09-18",
-        "planting_date": "2025-09-01",
-        "latitude": 38.552678,
-        "longitude": -90.3795438,
-        "location_name": "1 Helena Avenue"
+        "created_at": "2025-09-05 00:00:00",
+        "updated_at": "2025-09-18 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "DJI",
+            "location_name": "1 Helena Avenue",
+            "coords": {
+                "latitude": 38.552678,
+                "longitude": -90.0
+            }
+        }
     },
     {
         "id": 19,
@@ -333,13 +405,17 @@
         "temperature_to_grow": 216.3,
         "growth_rate": 1.89,
         "bloom_season": "Fall",
-        "country_code": "AND",
-        "created_at": "2025-09-03",
-        "updated_at": "2025-10-03",
-        "planting_date": "2025-09-14",
-        "latitude": 44.8464736,
-        "longitude": 33.6744583,
-        "location_name": "11083 Crest Line Drive"
+        "created_at": "2025-09-03 00:00:00",
+        "updated_at": "2025-10-03 00:00:00",
+        "planting_date": "2025-09-14 00:00:00",
+        "location": {
+            "country_code": "AND",
+            "location_name": "11083 Crest Line Drive",
+            "coords": {
+                "latitude": 44.8464736,
+                "longitude": 33.6744583
+            }
+        }
     },
     {
         "id": 20,
@@ -351,17 +427,21 @@
         "temperature_to_grow": 189.3,
         "growth_rate": 2.28,
         "bloom_season": "Summer",
-        "country_code": "TWN",
-        "created_at": "2025-09-05",
-        "updated_at": "2025-09-12",
-        "planting_date": "2025-09-30",
-        "latitude": 50.5487974,
-        "longitude": 8.5763725,
-        "location_name": "0910 Holy Cross Point"
+        "created_at": "2025-09-05 00:00:00",
+        "updated_at": "2025-09-12 00:00:00",
+        "planting_date": "2025-09-30 00:00:00",
+        "location": {
+            "country_code": "TWN",
+            "location_name": "0910 Holy Cross Point",
+            "coords": {
+                "latitude": 50.5487974,
+                "longitude": 8.5763725
+            }
+        }
     },
     {
         "id": 21,
-        "scientific_name": "Primula ×polyantha Mill. (pro sp.)",
+        "scientific_name": "Primula \u00c3\u2014polyantha Mill. (pro sp.)",
         "common_name": "Elatior Hybrid Primroses",
         "description": "Rich and smooth cold brew coffee concentrate, just add water or milk.",
         "max_height": 916.3,
@@ -369,13 +449,17 @@
         "temperature_to_grow": 181.8,
         "growth_rate": 4.14,
         "bloom_season": "Summer",
-        "country_code": "TKM",
-        "created_at": "2025-09-15",
-        "updated_at": "2025-09-24",
-        "planting_date": "2025-09-23",
-        "latitude": 7.7478359,
-        "longitude": -8.8252502,
-        "location_name": "0 Merchant Pass"
+        "created_at": "2025-09-15 00:00:00",
+        "updated_at": "2025-09-24 00:00:00",
+        "planting_date": "2025-09-23 00:00:00",
+        "location": {
+            "country_code": "TKM",
+            "location_name": "0 Merchant Pass",
+            "coords": {
+                "latitude": 7.7478359,
+                "longitude": -8.8252502
+            }
+        }
     },
     {
         "id": 22,
@@ -387,13 +471,17 @@
         "temperature_to_grow": 48.5,
         "growth_rate": 3.36,
         "bloom_season": "Winter",
-        "country_code": "KNA",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-30",
-        "planting_date": "2025-09-03",
-        "latitude": 49.6669762,
-        "longitude": 25.7723085,
-        "location_name": "1067 Spaight Park"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-30 00:00:00",
+        "planting_date": "2025-09-03 00:00:00",
+        "location": {
+            "country_code": "KNA",
+            "location_name": "1067 Spaight Park",
+            "coords": {
+                "latitude": 49.6669762,
+                "longitude": 25.7723085
+            }
+        }
     },
     {
         "id": 23,
@@ -405,13 +493,17 @@
         "temperature_to_grow": 42.7,
         "growth_rate": 2.43,
         "bloom_season": "Winter",
-        "country_code": "TLS",
-        "created_at": "2025-09-04",
-        "updated_at": "2025-09-24",
-        "planting_date": "2025-09-15",
-        "latitude": 42.3890735,
-        "longitude": 47.9897691,
-        "location_name": "96 Macpherson Terrace"
+        "created_at": "2025-09-04 00:00:00",
+        "updated_at": "2025-09-24 00:00:00",
+        "planting_date": "2025-09-15 00:00:00",
+        "location": {
+            "country_code": "TLS",
+            "location_name": "96 Macpherson Terrace",
+            "coords": {
+                "latitude": 42.3890735,
+                "longitude": 47.9897691
+            }
+        }
     },
     {
         "id": 24,
@@ -423,13 +515,17 @@
         "temperature_to_grow": 76.0,
         "growth_rate": 3.93,
         "bloom_season": "Summer",
-        "country_code": "PRT",
-        "created_at": "2025-09-26",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-08",
-        "latitude": 31.47454,
-        "longitude": 35.10742,
-        "location_name": "63352 Kropf Way"
+        "created_at": "2025-09-26 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "PRT",
+            "location_name": "63352 Kropf Way",
+            "coords": {
+                "latitude": 31.47454,
+                "longitude": 35.10742
+            }
+        }
     },
     {
         "id": 25,
@@ -441,13 +537,17 @@
         "temperature_to_grow": 12.3,
         "growth_rate": 3.55,
         "bloom_season": "Spring",
-        "country_code": "ISR",
-        "created_at": "2025-10-04",
-        "updated_at": "2025-09-23",
-        "planting_date": "2025-10-02",
-        "latitude": 40.6180185,
-        "longitude": -8.7338528,
-        "location_name": "19871 Killdeer Way"
+        "created_at": "2025-10-04 00:00:00",
+        "updated_at": "2025-09-23 00:00:00",
+        "planting_date": "2025-10-02 00:00:00",
+        "location": {
+            "country_code": "ISR",
+            "location_name": "19871 Killdeer Way",
+            "coords": {
+                "latitude": 40.6180185,
+                "longitude": -8.7338528
+            }
+        }
     },
     {
         "id": 26,
@@ -459,13 +559,17 @@
         "temperature_to_grow": 200.5,
         "growth_rate": 2.95,
         "bloom_season": "Winter",
-        "country_code": "CZE",
-        "created_at": "2025-09-03",
-        "updated_at": "2025-09-14",
-        "planting_date": "2025-09-09",
-        "latitude": -8.5697306,
-        "longitude": 123.3991028,
-        "location_name": "057 Knutson Avenue"
+        "created_at": "2025-09-03 00:00:00",
+        "updated_at": "2025-09-14 00:00:00",
+        "planting_date": "2025-09-09 00:00:00",
+        "location": {
+            "country_code": "CZE",
+            "location_name": "057 Knutson Avenue",
+            "coords": {
+                "latitude": -8.5697306,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 27,
@@ -477,13 +581,17 @@
         "temperature_to_grow": 69.8,
         "growth_rate": 0.75,
         "bloom_season": "Spring",
-        "country_code": "AIA",
-        "created_at": "2025-09-17",
-        "updated_at": "2025-09-24",
-        "planting_date": "2025-09-17",
-        "latitude": 26.641315,
-        "longitude": 100.222545,
-        "location_name": "9358 La Follette Place"
+        "created_at": "2025-09-17 00:00:00",
+        "updated_at": "2025-09-24 00:00:00",
+        "planting_date": "2025-09-17 00:00:00",
+        "location": {
+            "country_code": "AIA",
+            "location_name": "9358 La Follette Place",
+            "coords": {
+                "latitude": 26.641315,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 28,
@@ -495,13 +603,17 @@
         "temperature_to_grow": 165.8,
         "growth_rate": 4.16,
         "bloom_season": "Winter",
-        "country_code": "VCT",
-        "created_at": "2025-09-12",
-        "updated_at": "2025-09-01",
-        "planting_date": "2025-09-10",
-        "latitude": 7.0063409,
-        "longitude": -7.4868283,
-        "location_name": "76423 Union Park"
+        "created_at": "2025-09-12 00:00:00",
+        "updated_at": "2025-09-01 00:00:00",
+        "planting_date": "2025-09-10 00:00:00",
+        "location": {
+            "country_code": "VCT",
+            "location_name": "76423 Union Park",
+            "coords": {
+                "latitude": 7.0063409,
+                "longitude": -7.4868283
+            }
+        }
     },
     {
         "id": 29,
@@ -513,13 +625,17 @@
         "temperature_to_grow": 56.3,
         "growth_rate": 4.45,
         "bloom_season": "Fall",
-        "country_code": "TUR",
-        "created_at": "2025-10-01",
-        "updated_at": "2025-09-06",
-        "planting_date": "2025-10-03",
-        "latitude": 7.0036001,
-        "longitude": 122.0927415,
-        "location_name": "5165 Maple Wood Trail"
+        "created_at": "2025-10-01 00:00:00",
+        "updated_at": "2025-09-06 00:00:00",
+        "planting_date": "2025-10-03 00:00:00",
+        "location": {
+            "country_code": "TUR",
+            "location_name": "5165 Maple Wood Trail",
+            "coords": {
+                "latitude": 7.0036001,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 30,
@@ -531,17 +647,21 @@
         "temperature_to_grow": 52.5,
         "growth_rate": 2.38,
         "bloom_season": "Summer",
-        "country_code": "ATF",
-        "created_at": "2025-09-20",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-29",
-        "latitude": -23.0552782,
-        "longitude": -49.623678,
-        "location_name": "6670 Schurz Way"
+        "created_at": "2025-09-20 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-29 00:00:00",
+        "location": {
+            "country_code": "ATF",
+            "location_name": "6670 Schurz Way",
+            "coords": {
+                "latitude": -23.0552782,
+                "longitude": -49.623678
+            }
+        }
     },
     {
         "id": 31,
-        "scientific_name": "Armeria maritima (Mill.) Willd. ssp. interior (Raup) C. Lefèbvre & X. Vekemans",
+        "scientific_name": "Armeria maritima (Mill.) Willd. ssp. interior (Raup) C. Lef\u00c3\u00a8bvre & X. Vekemans",
         "common_name": "Interior Seapink",
         "description": "Easy setup tent perfect for camping and outdoor festivals.",
         "max_height": 513.2,
@@ -549,13 +669,17 @@
         "temperature_to_grow": 173.2,
         "growth_rate": 4.89,
         "bloom_season": "Summer",
-        "country_code": "SEN",
-        "created_at": "2025-09-23",
-        "updated_at": "2025-09-29",
-        "planting_date": "2025-09-16",
-        "latitude": 14.7324844,
-        "longitude": 100.2824483,
-        "location_name": "53985 Scoville Parkway"
+        "created_at": "2025-09-23 00:00:00",
+        "updated_at": "2025-09-29 00:00:00",
+        "planting_date": "2025-09-16 00:00:00",
+        "location": {
+            "country_code": "SEN",
+            "location_name": "53985 Scoville Parkway",
+            "coords": {
+                "latitude": 14.7324844,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 32,
@@ -567,13 +691,17 @@
         "temperature_to_grow": 121.9,
         "growth_rate": 2.33,
         "bloom_season": "Fall",
-        "country_code": "BEN",
-        "created_at": "2025-09-01",
-        "updated_at": "2025-09-21",
-        "planting_date": "2025-09-12",
-        "latitude": 10.71574,
-        "longitude": 107.7991545,
-        "location_name": "9219 Nobel Lane"
+        "created_at": "2025-09-01 00:00:00",
+        "updated_at": "2025-09-21 00:00:00",
+        "planting_date": "2025-09-12 00:00:00",
+        "location": {
+            "country_code": "BEN",
+            "location_name": "9219 Nobel Lane",
+            "coords": {
+                "latitude": 10.71574,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 33,
@@ -585,13 +713,17 @@
         "temperature_to_grow": 235.8,
         "growth_rate": 2.79,
         "bloom_season": "Spring",
-        "country_code": "PYF",
-        "created_at": "2025-09-21",
-        "updated_at": "2025-09-16",
-        "planting_date": "2025-09-02",
-        "latitude": 41.57365,
-        "longitude": 120.4493879,
-        "location_name": "79439 8th Terrace"
+        "created_at": "2025-09-21 00:00:00",
+        "updated_at": "2025-09-16 00:00:00",
+        "planting_date": "2025-09-02 00:00:00",
+        "location": {
+            "country_code": "PYF",
+            "location_name": "79439 8th Terrace",
+            "coords": {
+                "latitude": 41.57365,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 34,
@@ -603,13 +735,17 @@
         "temperature_to_grow": 251.0,
         "growth_rate": 4.42,
         "bloom_season": "Spring",
-        "country_code": "GNQ",
-        "created_at": "2025-09-12",
-        "updated_at": "2025-09-20",
-        "planting_date": "2025-09-13",
-        "latitude": 34.92715,
-        "longitude": 36.12323,
-        "location_name": "6657 Milwaukee Court"
+        "created_at": "2025-09-12 00:00:00",
+        "updated_at": "2025-09-20 00:00:00",
+        "planting_date": "2025-09-13 00:00:00",
+        "location": {
+            "country_code": "GNQ",
+            "location_name": "6657 Milwaukee Court",
+            "coords": {
+                "latitude": 34.92715,
+                "longitude": 36.12323
+            }
+        }
     },
     {
         "id": 35,
@@ -621,13 +757,17 @@
         "temperature_to_grow": 238.2,
         "growth_rate": 0.97,
         "bloom_season": "Spring",
-        "country_code": "DZA",
-        "created_at": "2025-09-01",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-06",
-        "latitude": 49.0156679,
-        "longitude": 33.6450451,
-        "location_name": "972 Morning Park"
+        "created_at": "2025-09-01 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-06 00:00:00",
+        "location": {
+            "country_code": "DZA",
+            "location_name": "972 Morning Park",
+            "coords": {
+                "latitude": 49.0156679,
+                "longitude": 33.6450451
+            }
+        }
     },
     {
         "id": 36,
@@ -639,13 +779,17 @@
         "temperature_to_grow": 246.8,
         "growth_rate": 4.56,
         "bloom_season": "Summer",
-        "country_code": "ZWE",
-        "created_at": "2025-09-28",
-        "updated_at": "2025-09-13",
-        "planting_date": "2025-09-04",
-        "latitude": -9.3228094,
-        "longitude": -36.8465564,
-        "location_name": "576 Crownhardt Point"
+        "created_at": "2025-09-28 00:00:00",
+        "updated_at": "2025-09-13 00:00:00",
+        "planting_date": "2025-09-04 00:00:00",
+        "location": {
+            "country_code": "ZWE",
+            "location_name": "576 Crownhardt Point",
+            "coords": {
+                "latitude": -9.3228094,
+                "longitude": -36.8465564
+            }
+        }
     },
     {
         "id": 37,
@@ -657,13 +801,17 @@
         "temperature_to_grow": 252.5,
         "growth_rate": 3.22,
         "bloom_season": "Fall",
-        "country_code": "JPN",
-        "created_at": "2025-09-11",
-        "updated_at": "2025-09-24",
-        "planting_date": "2025-09-13",
-        "latitude": 30.5731514,
-        "longitude": -7.2032754,
-        "location_name": "26679 Thackeray Crossing"
+        "created_at": "2025-09-11 00:00:00",
+        "updated_at": "2025-09-24 00:00:00",
+        "planting_date": "2025-09-13 00:00:00",
+        "location": {
+            "country_code": "JPN",
+            "location_name": "26679 Thackeray Crossing",
+            "coords": {
+                "latitude": 30.5731514,
+                "longitude": -7.2032754
+            }
+        }
     },
     {
         "id": 38,
@@ -675,13 +823,17 @@
         "temperature_to_grow": 173.2,
         "growth_rate": 4.82,
         "bloom_season": "Summer",
-        "country_code": "LCA",
-        "created_at": "2025-09-11",
-        "updated_at": "2025-09-04",
-        "planting_date": "2025-09-21",
-        "latitude": 11.2748678,
-        "longitude": 122.0534319,
-        "location_name": "6 Hermina Avenue"
+        "created_at": "2025-09-11 00:00:00",
+        "updated_at": "2025-09-04 00:00:00",
+        "planting_date": "2025-09-21 00:00:00",
+        "location": {
+            "country_code": "LCA",
+            "location_name": "6 Hermina Avenue",
+            "coords": {
+                "latitude": 11.2748678,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 39,
@@ -693,13 +845,17 @@
         "temperature_to_grow": 6.4,
         "growth_rate": 0.34,
         "bloom_season": "Spring",
-        "country_code": "SHN",
-        "created_at": "2025-09-29",
-        "updated_at": "2025-09-20",
-        "planting_date": "2025-09-01",
-        "latitude": 41.43254,
-        "longitude": 46.9646,
-        "location_name": "357 Sheridan Circle"
+        "created_at": "2025-09-29 00:00:00",
+        "updated_at": "2025-09-20 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "SHN",
+            "location_name": "357 Sheridan Circle",
+            "coords": {
+                "latitude": 41.43254,
+                "longitude": 46.9646
+            }
+        }
     },
     {
         "id": 40,
@@ -711,13 +867,17 @@
         "temperature_to_grow": 72.5,
         "growth_rate": 0.92,
         "bloom_season": "Winter",
-        "country_code": "BFA",
-        "created_at": "2025-09-16",
-        "updated_at": "2025-09-22",
-        "planting_date": "2025-09-08",
-        "latitude": 53.9165867,
-        "longitude": 18.1905615,
-        "location_name": "439 Cottonwood Hill"
+        "created_at": "2025-09-16 00:00:00",
+        "updated_at": "2025-09-22 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "BFA",
+            "location_name": "439 Cottonwood Hill",
+            "coords": {
+                "latitude": 53.9165867,
+                "longitude": 18.1905615
+            }
+        }
     },
     {
         "id": 41,
@@ -729,13 +889,17 @@
         "temperature_to_grow": 53.3,
         "growth_rate": 2.87,
         "bloom_season": "Spring",
-        "country_code": "VEN",
-        "created_at": "2025-09-02",
-        "updated_at": "2025-09-30",
-        "planting_date": "2025-09-12",
-        "latitude": 60.9801837,
-        "longitude": 32.9723968,
-        "location_name": "357 Russell Circle"
+        "created_at": "2025-09-02 00:00:00",
+        "updated_at": "2025-09-30 00:00:00",
+        "planting_date": "2025-09-12 00:00:00",
+        "location": {
+            "country_code": "VEN",
+            "location_name": "357 Russell Circle",
+            "coords": {
+                "latitude": 60.9801837,
+                "longitude": 32.9723968
+            }
+        }
     },
     {
         "id": 42,
@@ -747,13 +911,17 @@
         "temperature_to_grow": 127.9,
         "growth_rate": 0.75,
         "bloom_season": "Spring",
-        "country_code": "PRT",
-        "created_at": "2025-09-11",
-        "updated_at": "2025-09-03",
-        "planting_date": "2025-09-18",
-        "latitude": 53.5380522,
-        "longitude": 17.2364118,
-        "location_name": "38 Debra Street"
+        "created_at": "2025-09-11 00:00:00",
+        "updated_at": "2025-09-03 00:00:00",
+        "planting_date": "2025-09-18 00:00:00",
+        "location": {
+            "country_code": "PRT",
+            "location_name": "38 Debra Street",
+            "coords": {
+                "latitude": 53.5380522,
+                "longitude": 17.2364118
+            }
+        }
     },
     {
         "id": 43,
@@ -765,13 +933,17 @@
         "temperature_to_grow": 32.6,
         "growth_rate": 2.09,
         "bloom_season": "Spring",
-        "country_code": "MDV",
-        "created_at": "2025-09-08",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-02",
-        "latitude": 12.4503003,
-        "longitude": -3.4700327,
-        "location_name": "83396 Milwaukee Lane"
+        "created_at": "2025-09-08 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-02 00:00:00",
+        "location": {
+            "country_code": "MDV",
+            "location_name": "83396 Milwaukee Lane",
+            "coords": {
+                "latitude": 12.4503003,
+                "longitude": -3.4700327
+            }
+        }
     },
     {
         "id": 44,
@@ -783,17 +955,21 @@
         "temperature_to_grow": 7.9,
         "growth_rate": 1.08,
         "bloom_season": "Winter",
-        "country_code": "FJI",
-        "created_at": "2025-09-03",
-        "updated_at": "2025-09-02",
-        "planting_date": "2025-09-01",
-        "latitude": -5.456385,
-        "longitude": 122.612261,
-        "location_name": "8906 Northfield Junction"
+        "created_at": "2025-09-03 00:00:00",
+        "updated_at": "2025-09-02 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "FJI",
+            "location_name": "8906 Northfield Junction",
+            "coords": {
+                "latitude": -5.456385,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 45,
-        "scientific_name": "Potamogeton ×mysticus Morong (pro sp.)",
+        "scientific_name": "Potamogeton \u00c3\u2014mysticus Morong (pro sp.)",
         "common_name": "Pondweed",
         "description": "Golden crispy chicken tenders coated with honey mustard flavor.",
         "max_height": 542.05,
@@ -801,13 +977,17 @@
         "temperature_to_grow": 106.2,
         "growth_rate": 3.66,
         "bloom_season": "Fall",
-        "country_code": "UZB",
-        "created_at": "2025-09-19",
-        "updated_at": "2025-09-26",
-        "planting_date": "2025-09-07",
-        "latitude": -10.4318725,
-        "longitude": 105.6735131,
-        "location_name": "40 Green Lane"
+        "created_at": "2025-09-19 00:00:00",
+        "updated_at": "2025-09-26 00:00:00",
+        "planting_date": "2025-09-07 00:00:00",
+        "location": {
+            "country_code": "UZB",
+            "location_name": "40 Green Lane",
+            "coords": {
+                "latitude": -10.4318725,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 46,
@@ -819,13 +999,17 @@
         "temperature_to_grow": 52.6,
         "growth_rate": 1.27,
         "bloom_season": "Winter",
-        "country_code": "BOL",
-        "created_at": "2025-09-18",
-        "updated_at": "2025-09-17",
-        "planting_date": "2025-09-01",
-        "latitude": -25.7691769,
-        "longitude": -49.718244,
-        "location_name": "9718 Melrose Way"
+        "created_at": "2025-09-18 00:00:00",
+        "updated_at": "2025-09-17 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "BOL",
+            "location_name": "9718 Melrose Way",
+            "coords": {
+                "latitude": -25.7691769,
+                "longitude": -49.718244
+            }
+        }
     },
     {
         "id": 47,
@@ -837,13 +1021,17 @@
         "temperature_to_grow": 206.8,
         "growth_rate": 1.33,
         "bloom_season": "Fall",
-        "country_code": "LKA",
-        "created_at": "2025-09-20",
-        "updated_at": "2025-09-21",
-        "planting_date": "2025-09-08",
-        "latitude": -39.6415998,
-        "longitude": -72.3370089,
-        "location_name": "939 Washington Court"
+        "created_at": "2025-09-20 00:00:00",
+        "updated_at": "2025-09-21 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "LKA",
+            "location_name": "939 Washington Court",
+            "coords": {
+                "latitude": -39.6415998,
+                "longitude": -72.3370089
+            }
+        }
     },
     {
         "id": 48,
@@ -855,13 +1043,17 @@
         "temperature_to_grow": 90.8,
         "growth_rate": 1.5,
         "bloom_season": "Spring",
-        "country_code": "ALB",
-        "created_at": "2025-09-22",
-        "updated_at": "2025-09-11",
-        "planting_date": "2025-09-13",
-        "latitude": 66.0733463,
-        "longitude": 33.0544476,
-        "location_name": "985 South Lane"
+        "created_at": "2025-09-22 00:00:00",
+        "updated_at": "2025-09-11 00:00:00",
+        "planting_date": "2025-09-13 00:00:00",
+        "location": {
+            "country_code": "ALB",
+            "location_name": "985 South Lane",
+            "coords": {
+                "latitude": 66.0733463,
+                "longitude": 33.0544476
+            }
+        }
     },
     {
         "id": 49,
@@ -873,17 +1065,21 @@
         "temperature_to_grow": 124.5,
         "growth_rate": 3.77,
         "bloom_season": "Fall",
-        "country_code": "KAZ",
-        "created_at": "2025-09-25",
-        "updated_at": "2025-09-07",
-        "planting_date": "2025-09-11",
-        "latitude": 47.4636372,
-        "longitude": -79.4387857,
-        "location_name": "9 Lotheville Pass"
+        "created_at": "2025-09-25 00:00:00",
+        "updated_at": "2025-09-07 00:00:00",
+        "planting_date": "2025-09-11 00:00:00",
+        "location": {
+            "country_code": "KAZ",
+            "location_name": "9 Lotheville Pass",
+            "coords": {
+                "latitude": 47.4636372,
+                "longitude": -79.4387857
+            }
+        }
     },
     {
         "id": 50,
-        "scientific_name": "Symphyotrichum ×longulum (Sheldon) G.L. Nesom",
+        "scientific_name": "Symphyotrichum \u00c3\u2014longulum (Sheldon) G.L. Nesom",
         "common_name": "Aster",
         "description": "Frozen shrimp seasoned with chili and lime, perfect for quick dinners.",
         "max_height": 986.72,
@@ -891,13 +1087,17 @@
         "temperature_to_grow": 190.8,
         "growth_rate": 0.72,
         "bloom_season": "Spring",
-        "country_code": "BTN",
-        "created_at": "2025-09-25",
-        "updated_at": "2025-09-26",
-        "planting_date": "2025-09-10",
-        "latitude": 57.330777,
-        "longitude": 23.102146,
-        "location_name": "831 Norway Maple Alley"
+        "created_at": "2025-09-25 00:00:00",
+        "updated_at": "2025-09-26 00:00:00",
+        "planting_date": "2025-09-10 00:00:00",
+        "location": {
+            "country_code": "BTN",
+            "location_name": "831 Norway Maple Alley",
+            "coords": {
+                "latitude": 57.330777,
+                "longitude": 23.102146
+            }
+        }
     },
     {
         "id": 51,
@@ -909,13 +1109,17 @@
         "temperature_to_grow": 191.4,
         "growth_rate": 2.86,
         "bloom_season": "Summer",
-        "country_code": "NFK",
-        "created_at": "2025-09-05",
-        "updated_at": "2025-10-04",
-        "planting_date": "2025-09-07",
-        "latitude": 29.772645,
-        "longitude": 118.703307,
-        "location_name": "33634 Spenser Parkway"
+        "created_at": "2025-09-05 00:00:00",
+        "updated_at": "2025-10-04 00:00:00",
+        "planting_date": "2025-09-07 00:00:00",
+        "location": {
+            "country_code": "NFK",
+            "location_name": "33634 Spenser Parkway",
+            "coords": {
+                "latitude": 29.772645,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 52,
@@ -927,13 +1131,17 @@
         "temperature_to_grow": 200.6,
         "growth_rate": 3.29,
         "bloom_season": "Summer",
-        "country_code": "KHM",
-        "created_at": "2025-09-28",
-        "updated_at": "2025-09-22",
-        "planting_date": "2025-09-08",
-        "latitude": 39.7032415,
-        "longitude": 67.1060353,
-        "location_name": "24857 Truax Plaza"
+        "created_at": "2025-09-28 00:00:00",
+        "updated_at": "2025-09-22 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "KHM",
+            "location_name": "24857 Truax Plaza",
+            "coords": {
+                "latitude": 39.7032415,
+                "longitude": 67.1060353
+            }
+        }
     },
     {
         "id": 53,
@@ -945,13 +1153,17 @@
         "temperature_to_grow": 173.2,
         "growth_rate": 4.16,
         "bloom_season": "Spring",
-        "country_code": "TGO",
-        "created_at": "2025-09-03",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-16",
-        "latitude": 59.3475695,
-        "longitude": 18.0441996,
-        "location_name": "90 Stoughton Lane"
+        "created_at": "2025-09-03 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-16 00:00:00",
+        "location": {
+            "country_code": "TGO",
+            "location_name": "90 Stoughton Lane",
+            "coords": {
+                "latitude": 59.3475695,
+                "longitude": 18.0441996
+            }
+        }
     },
     {
         "id": 54,
@@ -963,13 +1175,17 @@
         "temperature_to_grow": 134.8,
         "growth_rate": 0.44,
         "bloom_season": "Winter",
-        "country_code": "PRK",
-        "created_at": "2025-09-06",
-        "updated_at": "2025-09-25",
-        "planting_date": "2025-09-13",
-        "latitude": 13.8811133,
-        "longitude": 123.6886104,
-        "location_name": "684 Monterey Point"
+        "created_at": "2025-09-06 00:00:00",
+        "updated_at": "2025-09-25 00:00:00",
+        "planting_date": "2025-09-13 00:00:00",
+        "location": {
+            "country_code": "PRK",
+            "location_name": "684 Monterey Point",
+            "coords": {
+                "latitude": 13.8811133,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 55,
@@ -981,13 +1197,17 @@
         "temperature_to_grow": 102.7,
         "growth_rate": 4.82,
         "bloom_season": "Fall",
-        "country_code": "GNQ",
-        "created_at": "2025-10-03",
-        "updated_at": "2025-10-04",
-        "planting_date": "2025-09-14",
-        "latitude": 60.955867,
-        "longitude": 22.6282967,
-        "location_name": "17 Melody Lane"
+        "created_at": "2025-10-03 00:00:00",
+        "updated_at": "2025-10-04 00:00:00",
+        "planting_date": "2025-09-14 00:00:00",
+        "location": {
+            "country_code": "GNQ",
+            "location_name": "17 Melody Lane",
+            "coords": {
+                "latitude": 60.955867,
+                "longitude": 22.6282967
+            }
+        }
     },
     {
         "id": 56,
@@ -999,13 +1219,17 @@
         "temperature_to_grow": 75.1,
         "growth_rate": 2.23,
         "bloom_season": "Summer",
-        "country_code": "KHM",
-        "created_at": "2025-09-12",
-        "updated_at": "2025-09-02",
-        "planting_date": "2025-09-23",
-        "latitude": -7.6387228,
-        "longitude": 111.0460407,
-        "location_name": "372 Stone Corner Park"
+        "created_at": "2025-09-12 00:00:00",
+        "updated_at": "2025-09-02 00:00:00",
+        "planting_date": "2025-09-23 00:00:00",
+        "location": {
+            "country_code": "KHM",
+            "location_name": "372 Stone Corner Park",
+            "coords": {
+                "latitude": -7.6387228,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 57,
@@ -1017,13 +1241,17 @@
         "temperature_to_grow": 248.6,
         "growth_rate": 4.8,
         "bloom_season": "Winter",
-        "country_code": "ATA",
-        "created_at": "2025-09-22",
-        "updated_at": "2025-09-18",
-        "planting_date": "2025-09-03",
-        "latitude": -8.4500758,
-        "longitude": 118.7278177,
-        "location_name": "1837 Di Loreto Crossing"
+        "created_at": "2025-09-22 00:00:00",
+        "updated_at": "2025-09-18 00:00:00",
+        "planting_date": "2025-09-03 00:00:00",
+        "location": {
+            "country_code": "ATA",
+            "location_name": "1837 Di Loreto Crossing",
+            "coords": {
+                "latitude": -8.4500758,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 58,
@@ -1035,13 +1263,17 @@
         "temperature_to_grow": 229.5,
         "growth_rate": 0.7,
         "bloom_season": "Spring",
-        "country_code": "DZA",
-        "created_at": "2025-10-03",
-        "updated_at": "2025-09-27",
-        "planting_date": "2025-09-17",
-        "latitude": 13.2874832,
-        "longitude": 6.301229,
-        "location_name": "32919 Vernon Lane"
+        "created_at": "2025-10-03 00:00:00",
+        "updated_at": "2025-09-27 00:00:00",
+        "planting_date": "2025-09-17 00:00:00",
+        "location": {
+            "country_code": "DZA",
+            "location_name": "32919 Vernon Lane",
+            "coords": {
+                "latitude": 13.2874832,
+                "longitude": 6.301229
+            }
+        }
     },
     {
         "id": 59,
@@ -1053,13 +1285,17 @@
         "temperature_to_grow": 43.8,
         "growth_rate": 4.76,
         "bloom_season": "Winter",
-        "country_code": "GBR",
-        "created_at": "2025-09-26",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-18",
-        "latitude": 30.961094,
-        "longitude": 113.922251,
-        "location_name": "0 Gateway Street"
+        "created_at": "2025-09-26 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-18 00:00:00",
+        "location": {
+            "country_code": "GBR",
+            "location_name": "0 Gateway Street",
+            "coords": {
+                "latitude": 30.961094,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 60,
@@ -1071,13 +1307,17 @@
         "temperature_to_grow": 114.6,
         "growth_rate": 1.15,
         "bloom_season": "Summer",
-        "country_code": "LBR",
-        "created_at": "2025-09-10",
-        "updated_at": "2025-09-29",
-        "planting_date": "2025-09-07",
-        "latitude": -17.1679082,
-        "longitude": -71.794868,
-        "location_name": "7 Troy Alley"
+        "created_at": "2025-09-10 00:00:00",
+        "updated_at": "2025-09-29 00:00:00",
+        "planting_date": "2025-09-07 00:00:00",
+        "location": {
+            "country_code": "LBR",
+            "location_name": "7 Troy Alley",
+            "coords": {
+                "latitude": -17.1679082,
+                "longitude": -71.794868
+            }
+        }
     },
     {
         "id": 61,
@@ -1089,13 +1329,17 @@
         "temperature_to_grow": 23.7,
         "growth_rate": 2.75,
         "bloom_season": "Fall",
-        "country_code": "VCT",
-        "created_at": "2025-10-02",
-        "updated_at": "2025-09-11",
-        "planting_date": "2025-09-15",
-        "latitude": 51.2034374,
-        "longitude": 7.1301012,
-        "location_name": "5132 Stang Hill"
+        "created_at": "2025-10-02 00:00:00",
+        "updated_at": "2025-09-11 00:00:00",
+        "planting_date": "2025-09-15 00:00:00",
+        "location": {
+            "country_code": "VCT",
+            "location_name": "5132 Stang Hill",
+            "coords": {
+                "latitude": 51.2034374,
+                "longitude": 7.1301012
+            }
+        }
     },
     {
         "id": 62,
@@ -1107,13 +1351,17 @@
         "temperature_to_grow": 62.3,
         "growth_rate": 1.04,
         "bloom_season": "Fall",
-        "country_code": "ARM",
-        "created_at": "2025-09-22",
-        "updated_at": "2025-09-22",
-        "planting_date": "2025-09-04",
-        "latitude": -7.5690727,
-        "longitude": 110.8312777,
-        "location_name": "02424 Arkansas Circle"
+        "created_at": "2025-09-22 00:00:00",
+        "updated_at": "2025-09-22 00:00:00",
+        "planting_date": "2025-09-04 00:00:00",
+        "location": {
+            "country_code": "ARM",
+            "location_name": "02424 Arkansas Circle",
+            "coords": {
+                "latitude": -7.5690727,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 63,
@@ -1125,13 +1373,17 @@
         "temperature_to_grow": 108.4,
         "growth_rate": 2.65,
         "bloom_season": "Spring",
-        "country_code": "TTO",
-        "created_at": "2025-09-19",
-        "updated_at": "2025-09-25",
-        "planting_date": "2025-09-15",
-        "latitude": 31.215291,
-        "longitude": 118.931012,
-        "location_name": "1518 Forest Run Trail"
+        "created_at": "2025-09-19 00:00:00",
+        "updated_at": "2025-09-25 00:00:00",
+        "planting_date": "2025-09-15 00:00:00",
+        "location": {
+            "country_code": "TTO",
+            "location_name": "1518 Forest Run Trail",
+            "coords": {
+                "latitude": 31.215291,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 64,
@@ -1143,13 +1395,17 @@
         "temperature_to_grow": 172.1,
         "growth_rate": 1.91,
         "bloom_season": "Summer",
-        "country_code": "NFK",
-        "created_at": "2025-10-03",
-        "updated_at": "2025-09-27",
-        "planting_date": "2025-09-09",
-        "latitude": -12.23146,
-        "longitude": -75.164368,
-        "location_name": "6913 Oxford Street"
+        "created_at": "2025-10-03 00:00:00",
+        "updated_at": "2025-09-27 00:00:00",
+        "planting_date": "2025-09-09 00:00:00",
+        "location": {
+            "country_code": "NFK",
+            "location_name": "6913 Oxford Street",
+            "coords": {
+                "latitude": -12.23146,
+                "longitude": -75.164368
+            }
+        }
     },
     {
         "id": 65,
@@ -1161,13 +1417,17 @@
         "temperature_to_grow": 127.6,
         "growth_rate": 0.6,
         "bloom_season": "Summer",
-        "country_code": "SMR",
-        "created_at": "2025-10-02",
-        "updated_at": "2025-09-02",
-        "planting_date": "2025-09-10",
-        "latitude": 43.4914335,
-        "longitude": 5.3707209,
-        "location_name": "721 Hoard Terrace"
+        "created_at": "2025-10-02 00:00:00",
+        "updated_at": "2025-09-02 00:00:00",
+        "planting_date": "2025-09-10 00:00:00",
+        "location": {
+            "country_code": "SMR",
+            "location_name": "721 Hoard Terrace",
+            "coords": {
+                "latitude": 43.4914335,
+                "longitude": 5.3707209
+            }
+        }
     },
     {
         "id": 66,
@@ -1179,13 +1439,17 @@
         "temperature_to_grow": 94.0,
         "growth_rate": 2.68,
         "bloom_season": "Spring",
-        "country_code": "TGO",
-        "created_at": "2025-10-04",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-11",
-        "latitude": 55.9353544,
-        "longitude": 37.4864125,
-        "location_name": "7 Derek Pass"
+        "created_at": "2025-10-04 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-11 00:00:00",
+        "location": {
+            "country_code": "TGO",
+            "location_name": "7 Derek Pass",
+            "coords": {
+                "latitude": 55.9353544,
+                "longitude": 37.4864125
+            }
+        }
     },
     {
         "id": 67,
@@ -1197,13 +1461,17 @@
         "temperature_to_grow": 226.9,
         "growth_rate": 3.63,
         "bloom_season": "Spring",
-        "country_code": "NCL",
-        "created_at": "2025-10-01",
-        "updated_at": "2025-09-08",
-        "planting_date": "2025-09-06",
-        "latitude": 36.56253,
-        "longitude": 36.73828,
-        "location_name": "81367 Lyons Drive"
+        "created_at": "2025-10-01 00:00:00",
+        "updated_at": "2025-09-08 00:00:00",
+        "planting_date": "2025-09-06 00:00:00",
+        "location": {
+            "country_code": "NCL",
+            "location_name": "81367 Lyons Drive",
+            "coords": {
+                "latitude": 36.56253,
+                "longitude": 36.73828
+            }
+        }
     },
     {
         "id": 68,
@@ -1215,13 +1483,17 @@
         "temperature_to_grow": 2.7,
         "growth_rate": 3.36,
         "bloom_season": "Summer",
-        "country_code": "MNE",
-        "created_at": "2025-09-01",
-        "updated_at": "2025-09-06",
-        "planting_date": "2025-09-25",
-        "latitude": 53.09697,
-        "longitude": -113.4729375,
-        "location_name": "8043 Hanson Road"
+        "created_at": "2025-09-01 00:00:00",
+        "updated_at": "2025-09-06 00:00:00",
+        "planting_date": "2025-09-25 00:00:00",
+        "location": {
+            "country_code": "MNE",
+            "location_name": "8043 Hanson Road",
+            "coords": {
+                "latitude": 53.09697,
+                "longitude": -90.0
+            }
+        }
     },
     {
         "id": 69,
@@ -1233,13 +1505,17 @@
         "temperature_to_grow": 184.5,
         "growth_rate": 2.3,
         "bloom_season": "Winter",
-        "country_code": "GIN",
-        "created_at": "2025-09-03",
-        "updated_at": "2025-09-22",
-        "planting_date": "2025-09-09",
-        "latitude": 40.400611,
-        "longitude": 122.348936,
-        "location_name": "60777 Weeping Birch Trail"
+        "created_at": "2025-09-03 00:00:00",
+        "updated_at": "2025-09-22 00:00:00",
+        "planting_date": "2025-09-09 00:00:00",
+        "location": {
+            "country_code": "GIN",
+            "location_name": "60777 Weeping Birch Trail",
+            "coords": {
+                "latitude": 40.400611,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 70,
@@ -1251,13 +1527,17 @@
         "temperature_to_grow": 102.2,
         "growth_rate": 0.9,
         "bloom_season": "Fall",
-        "country_code": "BEN",
-        "created_at": "2025-09-11",
-        "updated_at": "2025-09-16",
-        "planting_date": "2025-10-01",
-        "latitude": 8.3802672,
-        "longitude": -71.7844893,
-        "location_name": "18493 Acker Circle"
+        "created_at": "2025-09-11 00:00:00",
+        "updated_at": "2025-09-16 00:00:00",
+        "planting_date": "2025-10-01 00:00:00",
+        "location": {
+            "country_code": "BEN",
+            "location_name": "18493 Acker Circle",
+            "coords": {
+                "latitude": 8.3802672,
+                "longitude": -71.7844893
+            }
+        }
     },
     {
         "id": 71,
@@ -1269,13 +1549,17 @@
         "temperature_to_grow": 37.2,
         "growth_rate": 0.93,
         "bloom_season": "Winter",
-        "country_code": "ATA",
-        "created_at": "2025-09-05",
-        "updated_at": "2025-09-18",
-        "planting_date": "2025-09-22",
-        "latitude": 16.8991985,
-        "longitude": 121.7075195,
-        "location_name": "97 Golf Circle"
+        "created_at": "2025-09-05 00:00:00",
+        "updated_at": "2025-09-18 00:00:00",
+        "planting_date": "2025-09-22 00:00:00",
+        "location": {
+            "country_code": "ATA",
+            "location_name": "97 Golf Circle",
+            "coords": {
+                "latitude": 16.8991985,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 72,
@@ -1287,13 +1571,17 @@
         "temperature_to_grow": 151.2,
         "growth_rate": 1.71,
         "bloom_season": "Fall",
-        "country_code": "LBN",
-        "created_at": "2025-10-02",
-        "updated_at": "2025-09-13",
-        "planting_date": "2025-09-10",
-        "latitude": 43.7441795,
-        "longitude": 2.511999,
-        "location_name": "2553 Maple Park"
+        "created_at": "2025-10-02 00:00:00",
+        "updated_at": "2025-09-13 00:00:00",
+        "planting_date": "2025-09-10 00:00:00",
+        "location": {
+            "country_code": "LBN",
+            "location_name": "2553 Maple Park",
+            "coords": {
+                "latitude": 43.7441795,
+                "longitude": 2.511999
+            }
+        }
     },
     {
         "id": 73,
@@ -1305,13 +1593,17 @@
         "temperature_to_grow": 36.7,
         "growth_rate": 3.75,
         "bloom_season": "Spring",
-        "country_code": "BIH",
-        "created_at": "2025-09-22",
-        "updated_at": "2025-09-07",
-        "planting_date": "2025-09-28",
-        "latitude": -22.7106685,
-        "longitude": -43.5522256,
-        "location_name": "63 Talmadge Park"
+        "created_at": "2025-09-22 00:00:00",
+        "updated_at": "2025-09-07 00:00:00",
+        "planting_date": "2025-09-28 00:00:00",
+        "location": {
+            "country_code": "BIH",
+            "location_name": "63 Talmadge Park",
+            "coords": {
+                "latitude": -22.7106685,
+                "longitude": -43.5522256
+            }
+        }
     },
     {
         "id": 74,
@@ -1323,13 +1615,17 @@
         "temperature_to_grow": 74.0,
         "growth_rate": 4.7,
         "bloom_season": "Fall",
-        "country_code": "ROU",
-        "created_at": "2025-09-14",
-        "updated_at": "2025-09-22",
-        "planting_date": "2025-09-26",
-        "latitude": -23.6515085,
-        "longitude": -46.8521864,
-        "location_name": "636 Daystar Parkway"
+        "created_at": "2025-09-14 00:00:00",
+        "updated_at": "2025-09-22 00:00:00",
+        "planting_date": "2025-09-26 00:00:00",
+        "location": {
+            "country_code": "ROU",
+            "location_name": "636 Daystar Parkway",
+            "coords": {
+                "latitude": -23.6515085,
+                "longitude": -46.8521864
+            }
+        }
     },
     {
         "id": 75,
@@ -1341,13 +1637,17 @@
         "temperature_to_grow": 231.6,
         "growth_rate": 0.75,
         "bloom_season": "Summer",
-        "country_code": "NPL",
-        "created_at": "2025-09-16",
-        "updated_at": "2025-09-28",
-        "planting_date": "2025-09-11",
-        "latitude": 26.770007,
-        "longitude": 113.535405,
-        "location_name": "05 Johnson Park"
+        "created_at": "2025-09-16 00:00:00",
+        "updated_at": "2025-09-28 00:00:00",
+        "planting_date": "2025-09-11 00:00:00",
+        "location": {
+            "country_code": "NPL",
+            "location_name": "05 Johnson Park",
+            "coords": {
+                "latitude": 26.770007,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 76,
@@ -1359,13 +1659,17 @@
         "temperature_to_grow": 189.6,
         "growth_rate": 1.58,
         "bloom_season": "Fall",
-        "country_code": "TLS",
-        "created_at": "2025-09-19",
-        "updated_at": "2025-10-04",
-        "planting_date": "2025-09-06",
-        "latitude": 52.0264758,
-        "longitude": 21.8107747,
-        "location_name": "19 Eastwood Court"
+        "created_at": "2025-09-19 00:00:00",
+        "updated_at": "2025-10-04 00:00:00",
+        "planting_date": "2025-09-06 00:00:00",
+        "location": {
+            "country_code": "TLS",
+            "location_name": "19 Eastwood Court",
+            "coords": {
+                "latitude": 52.0264758,
+                "longitude": 21.8107747
+            }
+        }
     },
     {
         "id": 77,
@@ -1377,13 +1681,17 @@
         "temperature_to_grow": 146.9,
         "growth_rate": 1.05,
         "bloom_season": "Fall",
-        "country_code": "PCN",
-        "created_at": "2025-09-04",
-        "updated_at": "2025-09-20",
-        "planting_date": "2025-09-30",
-        "latitude": 56.0913813,
-        "longitude": 12.9029659,
-        "location_name": "9190 Vidon Street"
+        "created_at": "2025-09-04 00:00:00",
+        "updated_at": "2025-09-20 00:00:00",
+        "planting_date": "2025-09-30 00:00:00",
+        "location": {
+            "country_code": "PCN",
+            "location_name": "9190 Vidon Street",
+            "coords": {
+                "latitude": 56.0913813,
+                "longitude": 12.9029659
+            }
+        }
     },
     {
         "id": 78,
@@ -1395,13 +1703,17 @@
         "temperature_to_grow": 16.2,
         "growth_rate": 0.25,
         "bloom_season": "Winter",
-        "country_code": "GAB",
-        "created_at": "2025-09-29",
-        "updated_at": "2025-09-07",
-        "planting_date": "2025-09-22",
-        "latitude": 3.8152026,
-        "longitude": 117.1147095,
-        "location_name": "182 Stoughton Road"
+        "created_at": "2025-09-29 00:00:00",
+        "updated_at": "2025-09-07 00:00:00",
+        "planting_date": "2025-09-22 00:00:00",
+        "location": {
+            "country_code": "GAB",
+            "location_name": "182 Stoughton Road",
+            "coords": {
+                "latitude": 3.8152026,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 79,
@@ -1413,13 +1725,17 @@
         "temperature_to_grow": 195.5,
         "growth_rate": 3.76,
         "bloom_season": "Winter",
-        "country_code": "LBN",
-        "created_at": "2025-09-28",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-22",
-        "latitude": 32.8771669,
-        "longitude": -5.0533632,
-        "location_name": "7166 Grayhawk Crossing"
+        "created_at": "2025-09-28 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-22 00:00:00",
+        "location": {
+            "country_code": "LBN",
+            "location_name": "7166 Grayhawk Crossing",
+            "coords": {
+                "latitude": 32.8771669,
+                "longitude": -5.0533632
+            }
+        }
     },
     {
         "id": 80,
@@ -1431,13 +1747,17 @@
         "temperature_to_grow": 103.6,
         "growth_rate": 4.91,
         "bloom_season": "Fall",
-        "country_code": "SXM",
-        "created_at": "2025-10-02",
-        "updated_at": "2025-10-03",
-        "planting_date": "2025-09-30",
-        "latitude": 47.491705,
-        "longitude": 21.668453,
-        "location_name": "92 Corry Park"
+        "created_at": "2025-10-02 00:00:00",
+        "updated_at": "2025-10-03 00:00:00",
+        "planting_date": "2025-09-30 00:00:00",
+        "location": {
+            "country_code": "SXM",
+            "location_name": "92 Corry Park",
+            "coords": {
+                "latitude": 47.491705,
+                "longitude": 21.668453
+            }
+        }
     },
     {
         "id": 81,
@@ -1449,13 +1769,17 @@
         "temperature_to_grow": 146.4,
         "growth_rate": 2.85,
         "bloom_season": "Fall",
-        "country_code": "SGS",
-        "created_at": "2025-09-29",
-        "updated_at": "2025-10-01",
-        "planting_date": "2025-09-07",
-        "latitude": 48.9728482,
-        "longitude": 8.4060268,
-        "location_name": "636 Washington Park"
+        "created_at": "2025-09-29 00:00:00",
+        "updated_at": "2025-10-01 00:00:00",
+        "planting_date": "2025-09-07 00:00:00",
+        "location": {
+            "country_code": "SGS",
+            "location_name": "636 Washington Park",
+            "coords": {
+                "latitude": 48.9728482,
+                "longitude": 8.4060268
+            }
+        }
     },
     {
         "id": 82,
@@ -1467,13 +1791,17 @@
         "temperature_to_grow": 168.4,
         "growth_rate": 0.12,
         "bloom_season": "Spring",
-        "country_code": "LSO",
-        "created_at": "2025-09-08",
-        "updated_at": "2025-09-25",
-        "planting_date": "2025-09-19",
-        "latitude": 50.781501,
-        "longitude": 20.1074449,
-        "location_name": "259 Maple Hill"
+        "created_at": "2025-09-08 00:00:00",
+        "updated_at": "2025-09-25 00:00:00",
+        "planting_date": "2025-09-19 00:00:00",
+        "location": {
+            "country_code": "LSO",
+            "location_name": "259 Maple Hill",
+            "coords": {
+                "latitude": 50.781501,
+                "longitude": 20.1074449
+            }
+        }
     },
     {
         "id": 83,
@@ -1485,13 +1813,17 @@
         "temperature_to_grow": 78.2,
         "growth_rate": 3.46,
         "bloom_season": "Winter",
-        "country_code": "DNK",
-        "created_at": "2025-09-07",
-        "updated_at": "2025-10-03",
-        "planting_date": "2025-10-03",
-        "latitude": 59.2212515,
-        "longitude": 17.9196922,
-        "location_name": "27306 Dahle Court"
+        "created_at": "2025-09-07 00:00:00",
+        "updated_at": "2025-10-03 00:00:00",
+        "planting_date": "2025-10-03 00:00:00",
+        "location": {
+            "country_code": "DNK",
+            "location_name": "27306 Dahle Court",
+            "coords": {
+                "latitude": 59.2212515,
+                "longitude": 17.9196922
+            }
+        }
     },
     {
         "id": 84,
@@ -1503,13 +1835,17 @@
         "temperature_to_grow": 203.5,
         "growth_rate": 2.63,
         "bloom_season": "Fall",
-        "country_code": "ZWE",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-13",
-        "planting_date": "2025-09-22",
-        "latitude": 43.7563619,
-        "longitude": 16.6204644,
-        "location_name": "872 Arizona Circle"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-13 00:00:00",
+        "planting_date": "2025-09-22 00:00:00",
+        "location": {
+            "country_code": "ZWE",
+            "location_name": "872 Arizona Circle",
+            "coords": {
+                "latitude": 43.7563619,
+                "longitude": 16.6204644
+            }
+        }
     },
     {
         "id": 85,
@@ -1521,13 +1857,17 @@
         "temperature_to_grow": 162.0,
         "growth_rate": 3.01,
         "bloom_season": "Spring",
-        "country_code": "ATG",
-        "created_at": "2025-09-12",
-        "updated_at": "2025-09-27",
-        "planting_date": "2025-09-16",
-        "latitude": 48.2216277,
-        "longitude": 6.4359118,
-        "location_name": "26 Veith Avenue"
+        "created_at": "2025-09-12 00:00:00",
+        "updated_at": "2025-09-27 00:00:00",
+        "planting_date": "2025-09-16 00:00:00",
+        "location": {
+            "country_code": "ATG",
+            "location_name": "26 Veith Avenue",
+            "coords": {
+                "latitude": 48.2216277,
+                "longitude": 6.4359118
+            }
+        }
     },
     {
         "id": 86,
@@ -1539,13 +1879,17 @@
         "temperature_to_grow": 29.7,
         "growth_rate": 1.32,
         "bloom_season": "Winter",
-        "country_code": "VEN",
-        "created_at": "2025-09-16",
-        "updated_at": "2025-09-25",
-        "planting_date": "2025-10-01",
-        "latitude": 4.6096768,
-        "longitude": 101.1064003,
-        "location_name": "3 Schmedeman Crossing"
+        "created_at": "2025-09-16 00:00:00",
+        "updated_at": "2025-09-25 00:00:00",
+        "planting_date": "2025-10-01 00:00:00",
+        "location": {
+            "country_code": "VEN",
+            "location_name": "3 Schmedeman Crossing",
+            "coords": {
+                "latitude": 4.6096768,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 87,
@@ -1557,13 +1901,17 @@
         "temperature_to_grow": 132.8,
         "growth_rate": 3.8,
         "bloom_season": "Winter",
-        "country_code": "MNE",
-        "created_at": "2025-09-23",
-        "updated_at": "2025-09-30",
-        "planting_date": "2025-09-15",
-        "latitude": -9.9678,
-        "longitude": 124.536223,
-        "location_name": "9014 Schurz Plaza"
+        "created_at": "2025-09-23 00:00:00",
+        "updated_at": "2025-09-30 00:00:00",
+        "planting_date": "2025-09-15 00:00:00",
+        "location": {
+            "country_code": "MNE",
+            "location_name": "9014 Schurz Plaza",
+            "coords": {
+                "latitude": -9.9678,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 88,
@@ -1575,13 +1923,17 @@
         "temperature_to_grow": 80.4,
         "growth_rate": 2.18,
         "bloom_season": "Winter",
-        "country_code": "ECU",
-        "created_at": "2025-09-28",
-        "updated_at": "2025-09-10",
-        "planting_date": "2025-09-20",
-        "latitude": 20.5439984,
-        "longitude": -103.4649786,
-        "location_name": "2 Stang Way"
+        "created_at": "2025-09-28 00:00:00",
+        "updated_at": "2025-09-10 00:00:00",
+        "planting_date": "2025-09-20 00:00:00",
+        "location": {
+            "country_code": "ECU",
+            "location_name": "2 Stang Way",
+            "coords": {
+                "latitude": 20.5439984,
+                "longitude": -90.0
+            }
+        }
     },
     {
         "id": 89,
@@ -1593,13 +1945,17 @@
         "temperature_to_grow": 169.3,
         "growth_rate": 3.78,
         "bloom_season": "Winter",
-        "country_code": "MDV",
-        "created_at": "2025-10-02",
-        "updated_at": "2025-09-03",
-        "planting_date": "2025-09-02",
-        "latitude": 15.0026852,
-        "longitude": 108.7838572,
-        "location_name": "3968 Crowley Circle"
+        "created_at": "2025-10-02 00:00:00",
+        "updated_at": "2025-09-03 00:00:00",
+        "planting_date": "2025-09-02 00:00:00",
+        "location": {
+            "country_code": "MDV",
+            "location_name": "3968 Crowley Circle",
+            "coords": {
+                "latitude": 15.0026852,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 90,
@@ -1611,13 +1967,17 @@
         "temperature_to_grow": 118.5,
         "growth_rate": 4.97,
         "bloom_season": "Summer",
-        "country_code": "JPN",
-        "created_at": "2025-09-17",
-        "updated_at": "2025-09-04",
-        "planting_date": "2025-09-06",
-        "latitude": 25.9375976,
-        "longitude": -100.3638252,
-        "location_name": "858 Delaware Road"
+        "created_at": "2025-09-17 00:00:00",
+        "updated_at": "2025-09-04 00:00:00",
+        "planting_date": "2025-09-06 00:00:00",
+        "location": {
+            "country_code": "JPN",
+            "location_name": "858 Delaware Road",
+            "coords": {
+                "latitude": 25.9375976,
+                "longitude": -90.0
+            }
+        }
     },
     {
         "id": 91,
@@ -1629,13 +1989,17 @@
         "temperature_to_grow": 125.5,
         "growth_rate": 1.12,
         "bloom_season": "Winter",
-        "country_code": "GEO",
-        "created_at": "2025-09-20",
-        "updated_at": "2025-09-07",
-        "planting_date": "2025-09-23",
-        "latitude": -7.0108835,
-        "longitude": 108.8907988,
-        "location_name": "39 Center Parkway"
+        "created_at": "2025-09-20 00:00:00",
+        "updated_at": "2025-09-07 00:00:00",
+        "planting_date": "2025-09-23 00:00:00",
+        "location": {
+            "country_code": "GEO",
+            "location_name": "39 Center Parkway",
+            "coords": {
+                "latitude": -7.0108835,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 92,
@@ -1647,13 +2011,17 @@
         "temperature_to_grow": 118.9,
         "growth_rate": 0.54,
         "bloom_season": "Summer",
-        "country_code": "VGB",
-        "created_at": "2025-09-01",
-        "updated_at": "2025-09-21",
-        "planting_date": "2025-09-08",
-        "latitude": 53.1986,
-        "longitude": 23.20779,
-        "location_name": "8 Mitchell Way"
+        "created_at": "2025-09-01 00:00:00",
+        "updated_at": "2025-09-21 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "VGB",
+            "location_name": "8 Mitchell Way",
+            "coords": {
+                "latitude": 53.1986,
+                "longitude": 23.20779
+            }
+        }
     },
     {
         "id": 93,
@@ -1665,13 +2033,17 @@
         "temperature_to_grow": 204.7,
         "growth_rate": 0.93,
         "bloom_season": "Winter",
-        "country_code": "GUM",
-        "created_at": "2025-10-03",
-        "updated_at": "2025-09-28",
-        "planting_date": "2025-09-01",
-        "latitude": 10.2227095,
-        "longitude": 12.051835,
-        "location_name": "76860 Barby Street"
+        "created_at": "2025-10-03 00:00:00",
+        "updated_at": "2025-09-28 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "GUM",
+            "location_name": "76860 Barby Street",
+            "coords": {
+                "latitude": 10.2227095,
+                "longitude": 12.051835
+            }
+        }
     },
     {
         "id": 94,
@@ -1683,13 +2055,17 @@
         "temperature_to_grow": 21.4,
         "growth_rate": 2.05,
         "bloom_season": "Winter",
-        "country_code": "BLR",
-        "created_at": "2025-09-22",
-        "updated_at": "2025-09-21",
-        "planting_date": "2025-09-01",
-        "latitude": 40.0856412,
-        "longitude": -8.2896115,
-        "location_name": "0 Sage Lane"
+        "created_at": "2025-09-22 00:00:00",
+        "updated_at": "2025-09-21 00:00:00",
+        "planting_date": "2025-09-01 00:00:00",
+        "location": {
+            "country_code": "BLR",
+            "location_name": "0 Sage Lane",
+            "coords": {
+                "latitude": 40.0856412,
+                "longitude": -8.2896115
+            }
+        }
     },
     {
         "id": 95,
@@ -1701,13 +2077,17 @@
         "temperature_to_grow": 172.4,
         "growth_rate": 0.88,
         "bloom_season": "Fall",
-        "country_code": "QAT",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-17",
-        "planting_date": "2025-09-17",
-        "latitude": 63.1204712,
-        "longitude": 7.8745882,
-        "location_name": "2 Caliangt Pass"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-17 00:00:00",
+        "planting_date": "2025-09-17 00:00:00",
+        "location": {
+            "country_code": "QAT",
+            "location_name": "2 Caliangt Pass",
+            "coords": {
+                "latitude": 63.1204712,
+                "longitude": 7.8745882
+            }
+        }
     },
     {
         "id": 96,
@@ -1719,13 +2099,17 @@
         "temperature_to_grow": 151.7,
         "growth_rate": 4.31,
         "bloom_season": "Winter",
-        "country_code": "SOM",
-        "created_at": "2025-09-07",
-        "updated_at": "2025-10-04",
-        "planting_date": "2025-10-02",
-        "latitude": 55.6832198,
-        "longitude": 12.5899894,
-        "location_name": "68 Nova Alley"
+        "created_at": "2025-09-07 00:00:00",
+        "updated_at": "2025-10-04 00:00:00",
+        "planting_date": "2025-10-02 00:00:00",
+        "location": {
+            "country_code": "SOM",
+            "location_name": "68 Nova Alley",
+            "coords": {
+                "latitude": 55.6832198,
+                "longitude": 12.5899894
+            }
+        }
     },
     {
         "id": 97,
@@ -1737,17 +2121,21 @@
         "temperature_to_grow": 129.3,
         "growth_rate": 3.32,
         "bloom_season": "Winter",
-        "country_code": "ZMB",
-        "created_at": "2025-09-04",
-        "updated_at": "2025-09-12",
-        "planting_date": "2025-09-19",
-        "latitude": 54.2732308,
-        "longitude": 32.014211,
-        "location_name": "26 Pearson Terrace"
+        "created_at": "2025-09-04 00:00:00",
+        "updated_at": "2025-09-12 00:00:00",
+        "planting_date": "2025-09-19 00:00:00",
+        "location": {
+            "country_code": "ZMB",
+            "location_name": "26 Pearson Terrace",
+            "coords": {
+                "latitude": 54.2732308,
+                "longitude": 32.014211
+            }
+        }
     },
     {
         "id": 98,
-        "scientific_name": "×Pucciphippsia Tzvelev",
+        "scientific_name": "\u00c3\u2014Pucciphippsia Tzvelev",
         "common_name": "Pucciphippsia",
         "description": "Stylish stand to hold your recipes while cooking.",
         "max_height": 25.05,
@@ -1755,13 +2143,17 @@
         "temperature_to_grow": 222.8,
         "growth_rate": 3.12,
         "bloom_season": "Summer",
-        "country_code": "BEN",
-        "created_at": "2025-09-09",
-        "updated_at": "2025-09-12",
-        "planting_date": "2025-09-08",
-        "latitude": 26.8844636,
-        "longitude": -81.734942,
-        "location_name": "18133 Corscot Circle"
+        "created_at": "2025-09-09 00:00:00",
+        "updated_at": "2025-09-12 00:00:00",
+        "planting_date": "2025-09-08 00:00:00",
+        "location": {
+            "country_code": "BEN",
+            "location_name": "18133 Corscot Circle",
+            "coords": {
+                "latitude": 26.8844636,
+                "longitude": -81.734942
+            }
+        }
     },
     {
         "id": 99,
@@ -1773,17 +2165,21 @@
         "temperature_to_grow": 253.5,
         "growth_rate": 2.84,
         "bloom_season": "Fall",
-        "country_code": "SOM",
-        "created_at": "2025-09-15",
-        "updated_at": "2025-09-20",
-        "planting_date": "2025-09-13",
-        "latitude": -6.87792,
-        "longitude": 115.50689,
-        "location_name": "8671 Scott Place"
+        "created_at": "2025-09-15 00:00:00",
+        "updated_at": "2025-09-20 00:00:00",
+        "planting_date": "2025-09-13 00:00:00",
+        "location": {
+            "country_code": "SOM",
+            "location_name": "8671 Scott Place",
+            "coords": {
+                "latitude": -6.87792,
+                "longitude": 90.0
+            }
+        }
     },
     {
         "id": 100,
-        "scientific_name": "Luzula groenlandica Böcher var. groenlandica",
+        "scientific_name": "Luzula groenlandica B\u00c3\u00b6cher var. groenlandica",
         "common_name": "Greenland Woodrush",
         "description": "Crispy baked radish chips, a healthy snack alternative.",
         "max_height": 335.19,
@@ -1791,12 +2187,16 @@
         "temperature_to_grow": 14.1,
         "growth_rate": 0.54,
         "bloom_season": "Winter",
-        "country_code": "MCO",
-        "created_at": "2025-09-26",
-        "updated_at": "2025-09-26",
-        "planting_date": "2025-09-21",
-        "latitude": -8.613782,
-        "longitude": 125.2052299,
-        "location_name": "234 Ryan Place"
+        "created_at": "2025-09-26 00:00:00",
+        "updated_at": "2025-09-26 00:00:00",
+        "planting_date": "2025-09-21 00:00:00",
+        "location": {
+            "country_code": "MCO",
+            "location_name": "234 Ryan Place",
+            "coords": {
+                "latitude": -8.613782,
+                "longitude": 90.0
+            }
+        }
     }
 ]
